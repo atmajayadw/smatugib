@@ -39,6 +39,13 @@
                     <li><a class="link" href="">Kontak</a></li>
                 </ul>
             </div>
+            <div class="container sidebar">
+                <div class="hamburger">
+                    <span class="line1"></span>
+                    <span class="line2"></span>
+                    <span class="line3"></span>
+                </div>
+            </div>
         </div>
     </section>
 

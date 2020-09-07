@@ -31,9 +31,57 @@ body {
 #navbar .nav .links {
     margin-left: auto;
     width: 40%;
+    display: none;
 }
 
 #navbar .nav .link {
     text-decoration: none;
     color: #3E4C40;
 }
+
+#navbar .sidebar {}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 10%;
+    top: 40px;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 4px;
+    background-color: #3E4C40;
+    border-radius: 36px;
+    transition: 0.7s;
+}
+
+/* ---------- RESPONSIVE BREAKPOINTS NAVBAR ---------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #navbar .nav .links {
+        display: block;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+}
+
+/* ---------------------- End  ------------
