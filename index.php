@@ -63,6 +63,25 @@
         </div>
     </section>
 
+    <section id="welcome">
+        <div class="container welcome">
+            <div class="row">
+                <div class="col-md-6 welcome-left">
+                    <img src="Assets/img/kepsek.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-6 welcome-right">
+                    <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vestibulum congue nunc ac ante egestas gravida.
+                        Nullam vel sem purus. In hac habitasse platea dictumst.
+                        Nunc non libero eu urna convallis efficitur. "
+                    </p>
+                    <p>Drs. T. Catursas. KJ</p>
+                    <p>Kepala Sekolah SMA Yaspen Tugu Ibu 1 Depok</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src=" lib/bootstrap/js/jquery.js"> </script>
     <script src="lib/bootstrap/js/popper.js">
