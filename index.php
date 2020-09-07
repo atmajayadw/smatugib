@@ -14,8 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;1,300&display=swap"
         rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="lib/css/style.css">
     <link rel="stylesheet" href="lib/animatecss/animate.css">
@@ -44,6 +43,21 @@
                     <span class="line1"></span>
                     <span class="line2"></span>
                     <span class="line3"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="jumbotron">
+        <div class="container jumbo">
+            <div class="row">
+                <div class="col-md-6 jumbo-left">
+                    <img src="Assets/img/tugu_ibu.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-6 jumbo-right">
+                    <p>Selamat Datang di Website Resmi</p>
+                    <p>SMA YASPEN TUGU IBU</p>
+                    <button class="btn explore-btn">Explore</button>
                 </div>
             </div>
         </div>

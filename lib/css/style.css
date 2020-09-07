@@ -5,11 +5,12 @@ html {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #navbar {
-    height: 100px;
+    height: 80px;
+    margin: 10px;
 }
 
 #navbar .nav .logo img {
@@ -37,6 +38,7 @@ body {
 #navbar .nav .link {
     text-decoration: none;
     color: #3E4C40;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #navbar .sidebar {}
@@ -84,4 +86,101 @@ body {
 
 }
 
-/* ---------------------- End  ------------
+/* ---------------------- End ---------------------- */
+
+/* ---------------------- Jumbotron ---------------------- */
+
+#jumbotron {}
+
+#jumbotron .jumbo {
+    background-color: #FBF8F6;
+    border-radius: 25px;
+    padding: 30px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+#jumbotron .jumbo .row {
+    /* height: 500px; */
+}
+
+#jumbotron .jumbo-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+}
+
+#jumbotron .jumbo-left img {
+    width: 500px;
+    /* margin: auto;
+    display: block; */
+}
+
+#jumbotron .jumbo-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#jumbotron .jumbo-right p:nth-child(1) {
+    font-size: 24px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+
+#jumbotron .jumbo-right p:nth-child(2) {
+    font-size: 28px;
+    margin-top: -20px;
+}
+
+#jumbotron .jumbo-right .explore-btn {
+    width: 250px;
+    height: 50px;
+    background-color: #B9933B;
+    font-size: 24px;
+    color: white;
+    border-radius: 50px;
+}
+
+/* ---------- RESPONSIVE BREAKPOINTS JUMBOTRON ---------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #jumbotron .jumbo-right p:nth-child(1) {
+        font-size: 16px;
+    }
+
+    #jumbotron .jumbo-right p:nth-child(2) {
+        font-size: 18px;
+    }
+
+    #jumbotron .jumbo-right .explore-btn {
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #jumbotron {
+        margin: 10px;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #jumbotron .jumbo-right p:nth-child(1) {
+        font-size: 20px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* ---------------------- End ---------------------- */
