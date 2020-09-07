@@ -11,6 +11,9 @@
     <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
 
     <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;1,300&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
     <!-- CSS -->
@@ -22,7 +25,22 @@
 
 <body>
 
-    <h1>Hello World!</h1>
+    <section id="navbar">
+        <div class="container nav">
+            <div class="logo">
+                <img src="Assets/icon/tugib.png" alt="">
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a class="link" href="">Beranda</a></li>
+                    <li><a class="link" href="">Profil</a></li>
+                    <li><a class="link" href="">PPDB</a></li>
+                    <li><a class="link" href="">Berita</a></li>
+                    <li><a class="link" href="">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src=" lib/bootstrap/js/jquery.js"> </script>
