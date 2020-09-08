@@ -82,8 +82,8 @@
         </div>
     </section>
 
-    <section id="tentangkami">
-        <div class="container tentangkami">
+    <section id="about">
+        <div class="container about">
             <img src="Assets/icon/bullets5.png" class="bullets one img-fluid" alt="">
             <img src="Assets/icon/bullets4.png" class="bullets two img-fluid" alt="">
             <div class="title">
@@ -108,6 +108,60 @@
             </div>
             <img src="Assets/icon/bullets5.png" class="bullets three img-fluid" alt="">
             <img src="Assets/icon/bullets4.png" class="bullets four img-fluid" alt="">
+        </div>
+    </section>
+
+    <section id="news">
+        <h1>Berita Terkini</h1>
+        <div class="container news_">
+            <div class="news">
+                <img src="Assets/img/thumbnail1.png" alt="">
+                <p class="title">Lorem Ipsum</p>
+                <p class="text">Lorem ipsum dolor sit
+                    amet, consectetur
+                    adipiscing elit. Etiam
+                    dapibus non justo sed
+                    rutrum. Vestibulum non
+                    nulla magna. Sed egestas
+                    turpis ac ornare dapibus.</p>
+                <a href="" class="see-more">Lihat Selengkapnya!</a>
+            </div>
+            <div class="news">
+                <img src="Assets/img/thumbnail2.png" alt="">
+                <p class="title">Lorem Ipsum</p>
+                <p class="text">Lorem ipsum dolor sit
+                    amet, consectetur
+                    adipiscing elit. Etiam
+                    dapibus non justo sed
+                    rutrum. Vestibulum non
+                    nulla magna. Sed egestas
+                    turpis ac ornare dapibus.</p>
+                <a href="" class="see-more">Lihat Selengkapnya!</a>
+            </div>
+            <div class="news">
+                <img src="Assets/img/thumbnail3.png" alt="">
+                <p class="title">Lorem Ipsum</p>
+                <p class="text">Lorem ipsum dolor sit
+                    amet, consectetur
+                    adipiscing elit. Etiam
+                    dapibus non justo sed
+                    rutrum. Vestibulum non
+                    nulla magna. Sed egestas
+                    turpis ac ornare dapibus.</p>
+                <a href="" class="see-more">Lihat Selengkapnya!</a>
+            </div>
+            <div class="news">
+                <img src="Assets/img/thumbnail4.png" alt="">
+                <p class="title">Lorem Ipsum</p>
+                <p class="text">Lorem ipsum dolor sit
+                    amet, consectetur
+                    adipiscing elit. Etiam
+                    dapibus non justo sed
+                    rutrum. Vestibulum non
+                    nulla magna. Sed egestas
+                    turpis ac ornare dapibus.</p>
+                <a href="" class="see-more">Lihat Selengkapnya!</a>
+            </div>
         </div>
     </section>
 

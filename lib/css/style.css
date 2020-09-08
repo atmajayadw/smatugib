@@ -92,7 +92,6 @@ body {
 
 /* ---------------------- Jumbotron ---------------------- */
 
-#jumbotron {}
 
 #jumbotron .jumbo {
     background-color: #FBF8F6;
@@ -100,10 +99,6 @@ body {
     padding: 30px;
     box-sizing: border-box;
     height: 100%;
-}
-
-#jumbotron .jumbo .row {
-    /* height: 500px; */
 }
 
 #jumbotron .jumbo-left {
@@ -196,7 +191,6 @@ body {
     /* height: 700px; */
 }
 
-#welcome .welcome {}
 
 #welcome .welcome-left img {
     width: 500px;
@@ -265,29 +259,29 @@ body {
 
 /* ----------------------  Tentang -----------------------*/
 
-#tentangkami {
+#about {
     padding: 200px 0;
     overflow: hidden;
 
 }
 
-#tentangkami .tentangkami {
+#about .about {
     position: relative;
 }
 
-#tentangkami .bullets.one {
+#about .bullets.one {
     position: absolute;
     top: -120px;
 }
 
-#tentangkami .bullets.two {
+#about .bullets.two {
     position: absolute;
     left: 100px;
     top: -30px;
 }
 
 
-#tentangkami h1 {
+#about h1 {
     text-align: center;
     font-size: 36px;
     color: #414141;
@@ -296,13 +290,13 @@ body {
     margin: 10px;
 }
 
-#tentangkami .boxes {
+#about .boxes {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-#tentangkami .box {
+#about .box {
     height: 300px;
     width: 300px;
     border-radius: 30px;
@@ -314,40 +308,40 @@ body {
     box-sizing: border-box;
 }
 
-#tentangkami .box p:nth-child(2) {
+#about .box p:nth-child(2) {
     color: white;
     font-size: 40px;
 }
 
-#tentangkami .box p:nth-child(3) {
+#about .box p:nth-child(3) {
     color: white;
     font-size: 24px;
     text-align: center;
 }
 
-#tentangkami .box.one {
+#about .box.one {
     background-color: #C7C7BB;
 }
 
-#tentangkami .box.two {
+#about .box.two {
     background-color: #7F867D;
 }
 
-#tentangkami .box.three {
+#about .box.three {
     background-color: #E3E4E0;
 }
 
-#tentangkami .box img {
+#about .box img {
     width: 150px;
 }
 
-#tentangkami .bullets.three {
+#about .bullets.three {
     position: absolute;
     right: 95px;
     bottom: -200px;
 }
 
-#tentangkami .bullets.four {
+#about .bullets.four {
     position: absolute;
     right: 10px;
     bottom: -110px;
@@ -357,30 +351,30 @@ body {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    #tentangkami .tentangkami .bullets {
+    #about .about .bullets {
         scale: 0.7;
     }
 
-    #tentangkami .bullets.one {
+    #about .bullets.one {
         top: -80px;
         left: -83px;
     }
 
-    #tentangkami .bullets.two {
+    #about .bullets.two {
         left: 230px;
         top: -80px;
     }
 
-    #tentangkami h1 {
+    #about h1 {
         font-size: 26px;
     }
 
-    #tentangkami .bullets.three {
+    #about .bullets.three {
         left: -50px;
         bottom: -100px;
     }
 
-    #tentangkami .bullets.four {
+    #about .bullets.four {
         right: -50px;
         bottom: -100px;
     }
@@ -388,26 +382,26 @@ body {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    #tentangkami .tentangkami .bullets {
+    #about .about .bullets {
         scale: 0.7;
     }
 
-    #tentangkami .bullets.one {
+    #about .bullets.one {
         top: -80px;
         left: -83px;
     }
 
-    #tentangkami .bullets.two {
+    #about .bullets.two {
         left: 400px;
         top: 50px;
     }
 
-    #tentangkami .bullets.three {
+    #about .bullets.three {
         left: 0;
         bottom: -100px;
     }
 
-    #tentangkami .bullets.four {
+    #about .bullets.four {
         right: 0;
         bottom: -100px;
     }
@@ -415,26 +409,26 @@ body {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    #tentangkami .tentangkami .bullets {
+    #about .about .bullets {
         scale: 0.7;
     }
 
-    #tentangkami .bullets.one {
+    #about .bullets.one {
         top: -120px;
         left: -83px;
     }
 
-    #tentangkami .bullets.two {
+    #about .bullets.two {
         left: 0;
         top: -60px;
     }
 
-    #tentangkami .bullets.three {
+    #about .bullets.three {
         left: 0;
         bottom: -100px;
     }
 
-    #tentangkami .bullets.four {
+    #about .bullets.four {
         right: 0;
         bottom: -100px;
     }
@@ -443,39 +437,101 @@ body {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-    #tentangkami .tentangkami .bullets {
+    #about .about .bullets {
         scale: 0.7;
     }
 
-    #tentangkami .bullets.one {
+    #about .bullets.one {
         top: -80px;
         left: -30px;
     }
 
-    #tentangkami .bullets.two {
+    #about .bullets.two {
         left: 50px;
         top: -20px;
     }
 
-    #tentangkami .bullets.three {
+    #about .bullets.three {
         right: 95px;
         bottom: -165px;
     }
 
-    #tentangkami .bullets.four {
+    #about .bullets.four {
         right: 10px;
         bottom: -100px;
     }
 }
 
-/* ---------------------- End  -----------------------*/
+/* ---------------------- End Abour -----------------------*/
 
+/* ----------------------  News -----------------------*/
 
+#news {
+    padding: 80px 0;
+    background-color: #FBF9F6;
+    border-radius: 250px 0 250px 0;
+    margin-top: 100px;
+}
 
+#news h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #414141;
+    opacity: 0.6;
+    letter-spacing: 2px;
+}
 
+#news .news_ {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
+#news .news_ .news {
+    /* height: 400px; */
+    width: 250px;
+    border-radius: 25px;
+    background-color: white;
+    margin-top: 25px;
+    padding: 10px;
+}
 
+#news .news_ .news img {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
 
+#news .news_ .news .title {
+    font-size: 20px;
+    color: #3E4C40;
+    margin-top: 5px;
+}
+
+#news .news_ .news .text {
+    font-size: 14px;
+    color: #3E4C40;
+    font-weight: 300;
+    margin-top: -10px;
+}
+
+#news .news_ .news .see-more {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+/* ---------- RESPONSIVE BREAKPOINTS ---------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #news h1 {
+        font-size: 26px;
+    }
+}
+
+/* ---------------------- End News -----------------------*/
+
+/* ----------------------   -----------------------*/
 
 
 
@@ -498,3 +554,5 @@ body {
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /* ---------------------- End  -----------------------*/
+
+/* ----------------------   -----------------------*/
