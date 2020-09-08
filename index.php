@@ -82,6 +82,35 @@
         </div>
     </section>
 
+    <section id="tentangkami">
+        <div class="container tentangkami">
+            <img src="Assets/icon/bullets5.png" class="bullets one img-fluid" alt="">
+            <img src="Assets/icon/bullets4.png" class="bullets two img-fluid" alt="">
+            <div class="title">
+                <h1>Sekilas Tentang Kami</h1>
+            </div>
+            <div class="boxes">
+                <div class="box one">
+                    <img src="Assets/icon/guru.png" alt="">
+                    <p>33</p>
+                    <p>Guru Bersertifikasi</p>
+                </div>
+                <div class="box two">
+                    <img src="Assets/icon/siswa.png" alt="">
+                    <p>40</p>
+                    <p>Jumlah Siswa <br> Per Kelas</p>
+                </div>
+                <div class="box three">
+                    <img src="Assets/icon/kelulusan.png" alt="">
+                    <p>100%</p>
+                    <p>Tingkat Kelulusan</p>
+                </div>
+            </div>
+            <img src="Assets/icon/bullets5.png" class="bullets three img-fluid" alt="">
+            <img src="Assets/icon/bullets4.png" class="bullets four img-fluid" alt="">
+        </div>
+    </section>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src=" lib/bootstrap/js/jquery.js"> </script>
     <script src="lib/bootstrap/js/popper.js">
