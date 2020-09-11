@@ -32,7 +32,7 @@
             <div class="links">
                 <ul>
                     <li><a class="link" href="">Beranda</a></li>
-                    <li><a class="link" href="">Profil</a></li>
+                    <li><a class="link" href="/smatugib/pages/profil.php">Profil</a></li>
                     <li><a class="link" href="">PPDB</a></li>
                     <li><a class="link" href="">Berita</a></li>
                     <li><a class="link" href="">Kontak</a></li>

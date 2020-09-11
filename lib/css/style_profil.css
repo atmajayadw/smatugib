@@ -1,0 +1,272 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ---------------------- Navbar -----------------------*/
+
+#navbar {
+    height: 80px;
+    margin: 10px;
+}
+
+#navbar .nav .logo img {
+    width: 80px;
+}
+
+#navbar .nav {
+    display: flex;
+    align-items: center;
+}
+
+#navbar .nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar .nav .links {
+    margin-left: auto;
+    width: 40%;
+    display: none;
+}
+
+#navbar .nav .link {
+    text-decoration: none;
+    color: #3E4C40;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navbar .sidebar {}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    top: 40px;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 4px;
+    background-color: #3E4C40;
+    border-radius: 36px;
+    transition: 0.7s;
+}
+
+/* ---------- RESPONSIVE BREAKPOINTS NAVBAR ---------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #navbar .nav .links {
+        display: block;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+}
+
+/* ---------------------- End ---------------------- */
+
+/* ---------------------- Jumbotron ---------------------- */
+
+
+#jumbotron .jumbo {
+    background-color: #FBF8F6;
+    border-radius: 25px;
+    padding: 30px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+#jumbotron .jumbo img {
+    width: 100%;
+}
+
+/* ---------- RESPONSIVE BREAKPOINTS JUMBOTRON ---------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #jumbotron .jumbo-right p:nth-child(1) {
+        font-size: 16px;
+    }
+
+    #jumbotron .jumbo-right p:nth-child(2) {
+        font-size: 18px;
+    }
+
+    #jumbotron .jumbo-right .explore-btn {
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #jumbotron {
+        margin: 10px;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #jumbotron .jumbo-right p:nth-child(1) {
+        font-size: 20px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* ---------------------- End ---------------------- */
+
+/* ---------------------- Profil ---------------------- */
+
+#profiles {
+    padding: 100px 0;
+}
+
+#profiles h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #414141;
+    opacity: 0.6;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+
+
+/* ----------------------  Footer -----------------------*/
+
+#footer {
+    background-color: #FBF8F6;
+    padding-top: 20px;
+    border-radius: 50px 50px 0 0;
+}
+
+#footer .footer .one .ig,
+#footer .footer .one .email,
+#footer .footer .one .phone {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+#footer .footer .one .ig img,
+#footer .footer .one .email img,
+#footer .footer .one .phone img {
+    width: 25px;
+    height: 25px;
+}
+
+#footer .footer .one .ig p,
+#footer .footer .one .email p,
+#footer .footer .one .phone p {
+    font-size: 16px;
+    color: #3E4C40;
+    margin-left: 20px;
+}
+
+#footer .footer .two img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+#footer .footer .three p:nth-child(1) {
+    font-size: 20px;
+    color: #3E4C40;
+    text-align: center;
+}
+
+#footer .footer .three p:nth-child(2),
+#footer .footer .three p:nth-child(3) {
+    font-size: 16px;
+    color: #3E4C40;
+    text-align: center;
+}
+
+#footer .footer .copyright {
+    font-size: 14px;
+    color: #3E4C40;
+    text-align: center;
+    margin: 0;
+}
+
+/* ---------- RESPONSIVE BREAKPOINTS FOOTER---------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 767.98px) {
+
+    #footer .footer .one .ig,
+    #footer .footer .one .email,
+    #footer .footer .one .phone {
+        justify-content: center;
+    }
+
+    #footer .footer .copyright {
+        font-size: 10px;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* ---------------------- End  -----------------------*/
+
+
+
+
+
+
+/* ---------- RESPONSIVE BREAKPOINTS ---------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* ---------------------- End  -----------------------*/
+
+/* ----------------------   -----------------------*/
