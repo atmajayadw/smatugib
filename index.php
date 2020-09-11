@@ -165,6 +165,61 @@
         </div>
     </section>
 
+    <section id="slideshow">
+        <div class="container slideshow">
+            <div class="display">
+                <img src="Assets/img/slideshow/1.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="thumbnails">
+                <div class="thumb">
+                    <img src="Assets/img/slideshow/thumbnail1.png" class="img-fluid" alt="">
+                </div>
+                <div class="thumb">
+                    <img src="Assets/img/slideshow/thumbnail2.png" class="img-fluid" alt="">
+                </div>
+                <div class="thumb">
+                    <img src="Assets/img/slideshow/thumbnail3.png" class="img-fluid" alt="">
+                </div>
+                <div class="thumb">
+                    <img src="Assets/img/slideshow/thumbnail4.png" class="img-fluid" alt="">
+                </div>
+                <div class="thumb">
+                    <img src="Assets/img/slideshow/thumbnail5.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="container footer">
+            <div class="row">
+                <div class="col-md one">
+                    <div class="ig">
+                        <img src="Assets/icon/instagram.png" alt="">
+                        <p>@smatuguibu</p>
+                    </div>
+                    <div class="email">
+                        <img src="Assets/icon/email.png" alt="">
+                        <p>smatuguibu@mail.com</p>
+                    </div>
+                    <div class="phone">
+                        <img src="Assets/icon/phone.png" alt="">
+                        <p>(021) 7701264</p>
+                    </div>
+                </div>
+                <div class="col-md two">
+                    <img src="Assets/icon/tugib.png" alt="">
+                </div>
+                <div class="col-md three">
+                    <p>Jam Kerja</p>
+                    <p>Senin - Kamis : 07.30 - 15.00</p>
+                    <p>Jum'at &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : 07.30 - 11.00</p>
+                </div>
+            </div>
+            <p class="copyright">Copyright © 2020 Sma Yaspen Tugu Ibu 1 Depok. All Rights Reserved</p>
+        </div>
+    </section>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src=" lib/bootstrap/js/jquery.js"> </script>
     <script src="lib/bootstrap/js/popper.js">

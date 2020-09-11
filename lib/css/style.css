@@ -262,7 +262,6 @@ body {
 #about {
     padding: 200px 0;
     overflow: hidden;
-
 }
 
 #about .about {
@@ -531,8 +530,114 @@ body {
 
 /* ---------------------- End News -----------------------*/
 
-/* ----------------------   -----------------------*/
+/* ----------------------  SLIDESHOW -----------------------*/
 
+#slideshow {
+    padding: 150px 0;
+}
+
+#slideshow .display img {
+    display: block;
+    margin: auto;
+}
+
+#slideshow .thumbnails {
+    display: flex;
+    justify-content: space-around;
+}
+
+#slideshow .thumbnails .thumb {
+    margin-top: 15px;
+}
+
+
+/* ---------------------- End Slideshow -----------------------*/
+
+/* ----------------------  Footer -----------------------*/
+
+#footer {
+    background-color: #FBF8F6;
+    padding-top: 20px;
+    border-radius: 50px 50px 0 0;
+}
+
+#footer .footer .one .ig,
+#footer .footer .one .email,
+#footer .footer .one .phone {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+#footer .footer .one .ig img,
+#footer .footer .one .email img,
+#footer .footer .one .phone img {
+    width: 25px;
+    height: 25px;
+}
+
+#footer .footer .one .ig p,
+#footer .footer .one .email p,
+#footer .footer .one .phone p {
+    font-size: 16px;
+    color: #3E4C40;
+    margin-left: 20px;
+}
+
+#footer .footer .two img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+#footer .footer .three p:nth-child(1) {
+    font-size: 20px;
+    color: #3E4C40;
+    text-align: center;
+}
+
+#footer .footer .three p:nth-child(2),
+#footer .footer .three p:nth-child(3) {
+    font-size: 16px;
+    color: #3E4C40;
+    text-align: center;
+}
+
+#footer .footer .copyright {
+    font-size: 14px;
+    color: #3E4C40;
+    text-align: center;
+    margin: 0;
+}
+
+/* ---------- RESPONSIVE BREAKPOINTS FOOTER---------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 767.98px) {
+
+    #footer .footer .one .ig,
+    #footer .footer .one .email,
+    #footer .footer .one .phone {
+        justify-content: center;
+    }
+
+    #footer .footer .copyright {
+        font-size: 10px;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* ---------------------- End  -----------------------*/
 
 
 
