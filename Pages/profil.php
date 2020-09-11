@@ -109,7 +109,36 @@
         </div>
     </section>
 
-
+    <section id="school">
+        <div class="container school">
+            <div class="row">
+                <div class="col-md left">
+                    <img src="../Assets/icon/bullets1.png" class="bullets one img-fluid" alt="">
+                    <img src="../Assets/img/tugu_ibu.png" class="tugib img-fluid" alt="">
+                    <img src="../Assets/icon/bullets1.png" class="bullets two img-fluid" alt="">
+                </div>
+                <div class="col-md right">
+                    <h5>Tentang Sekolah</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent semper consequat aliquam. Proin
+                        eget rhoncus augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                        cubilia
+                        curae; Aenean mattis egestas urna, at pretium sapien malesuada id. Fusce sit amet mauris nunc.
+                        Ut
+                        porta hendrerit commodo. Sed eu bibendum est. Nullam dapibus at turpis ac condimentum. Curabitur
+                        in porta est.
+                        <br>
+                        <br>Sed ut lacus vitae ex lobortis mollis. Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit. Incidunt placeat facere enim corrupti sunt cum ea, libero id possimus ad ducimus numquam
+                        aspernatur nihil accusamus eos maiores repudiandae deserunt doloremque molestiae ab!
+                        Accusantium,
+                        eum animi laudantium ipsam ut facilis soluta qui vero, labore consectetur alias tempore amet,
+                        possimus magnam! Sed.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- <section id="footer">
         <div class="container footer">
             <div class="row">

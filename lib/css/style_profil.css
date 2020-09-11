@@ -361,7 +361,7 @@ body {
 #visimisi .visimisi .left,
 #visimisi .visimisi .right {
     line-height: 2.5;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 #visimisi .visimisi .left h4,
@@ -371,6 +371,7 @@ body {
     font-size: 32px;
 }
 
+#visimisi .visimisi .left p,
 #visimisi .visimisi .right p {
     color: #414141;
     font-size: 16px;
@@ -382,25 +383,130 @@ body {
 @media (max-width: 575.98px) {
     #visimisi {
         border-radius: 50px 50px 0 0;
+        height: auto;
     }
+
+    #visimisi .visimisi .left p,
+    #visimisi .visimisi .right p {
+        font-size: 14px;
+    }
+
+    #visimisi .visimisi .left h4,
+    #visimisi .visimisi .right h4 {
+        font-size: 28px;
+    }
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #visimisi {
+        height: auto;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #visimisi {
+        height: auto;
+    }
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /* ---------------------- End  -----------------------*/
 
+/* ---------------------- ABOUT SCHOOL  -----------------------*/
+
+#school {
+    padding: 150px 0;
+    background-image: linear-gradient(to bottom, white, #FBF9F6);
+    border-radius: 0 0 250px 250px;
+}
+
+#school .left {
+    position: relative;
+}
+
+#school .left .tugib {
+    width: 90%;
+    display: block;
+    margin: auto;
+    z-index: 2;
+    position: relative;
+}
+
+#school .right h5 {
+    color: #414141;
+    text-align: center;
+    font-size: 32px;
+}
+
+#school .right p {
+    margin-top: 25px;
+    color: #414141;
+    font-size: 16px;
+}
+
+#school .left .bullets.one {
+    position: absolute;
+    right: 17px;
+    top: -45px;
+}
+
+#school .left .bullets.two {
+    position: absolute;
+    bottom: -52px;
+    left: -33px;
+}
+
+/* ---------- RESPONSIVE BREAKPOINTS SCHOOL ---------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #school {
+        border-radius: 0 0 50px 50px;
+    }
+
+    #school .right h5 {
+        margin-top: 80px;
+    }
+
+    #school .left .bullets.one {
+        right: 5px;
+    }
+
+    #school .left .bullets.two {
+        left: -20px;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #school .right h5 {
+        margin-top: 80px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #school .left .bullets.two {
+        bottom: 237px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #school .left .bullets.two {
+        bottom: -15px;
+    }
+}
+
+/* ---------------------- End SCHOOL -----------------------*/
+
 /* ----------------------   -----------------------*/
-
-
-
-
 
 /* ----------------------  Footer -----------------------*/
 
