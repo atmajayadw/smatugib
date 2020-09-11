@@ -56,17 +56,34 @@
 
     <section id="profiles">
         <h1>Profil Kami</h1>
+        <img src="../Assets/icon/bullets5.png" class="bullets one img-fluid" alt="">
+        <img src="../Assets/icon/bullets4.png" class="bullets two img-fluid" alt="">
         <div class="container profiles">
-            <div class="profile">
-
+            <div class="profile one">
+                <img src="../Assets/icon/visimisi.png" alt="">
+                <p>Visi & Misi</p>
+            </div>
+            <div class="profile two">
+                <img src="../Assets/icon/sekolah.png" alt="">
+                <p>Tentang<br>Sekolah</p>
+            </div>
+            <div class="profile three">
+                <img src="../Assets/icon/lab.png" alt="">
+                <p>Struktur<br>Organisasi</p>
+            </div>
+            <div class="profile four">
+                <img src="../Assets/icon/struktur.png" alt="">
+                <p>Fasilitas</p>
             </div>
         </div>
+        <img src="../Assets/icon/bullets4.png" class="bullets three img-fluid" alt="">
+        <img src="../Assets/icon/bullets5.png" class="bullets four img-fluid" alt="">
     </section>
 
 
 
 
-    <section id="footer">
+    <!-- <section id="footer">
         <div class="container footer">
             <div class="row">
                 <div class="col-md one">
@@ -94,7 +111,7 @@
             </div>
             <p class="copyright">Copyright © 2020 Sma Yaspen Tugu Ibu 1 Depok. All Rights Reserved</p>
         </div>
-    </section>
+    </section> -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="../lib/bootstrap/js/jquery.js"> </script>
