@@ -80,7 +80,34 @@
         <img src="../Assets/icon/bullets5.png" class="bullets four img-fluid" alt="">
     </section>
 
-
+    <section id="visimisi">
+        <div class="container visimisi">
+            <div class="row">
+                <div class="col-md left">
+                    <h4>VISI</h4>
+                    <p>1. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. <br>
+                        2. Praesent semper consequat aliquam, proin eget
+                        rhoncus augue.<br>
+                        3. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit.<br>
+                        4. Praesent semper consequat aliquam, proin eget
+                        rhoncus augue.<br></p>
+                </div>
+                <div class="col-md right">
+                    <h4>MISI</h4>
+                    <p>1. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. <br>
+                        2. Praesent semper consequat aliquam, proin eget
+                        rhoncus augue.<br>
+                        3. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit.<br>
+                        4. Praesent semper consequat aliquam, proin eget
+                        rhoncus augue.<br></p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- <section id="footer">
