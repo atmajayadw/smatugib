@@ -167,9 +167,13 @@
 
     <section id="slideshow">
         <div class="container slideshow">
+            <img src="Assets/icon/bullets1.png" class="bullets one img-fluid" alt="">
             <div class="display">
-                <img src="Assets/img/slideshow/1.jpg" class="img-fluid" alt="">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <img src="Assets/img/slideshow/1.jpg" class="slides img-fluid" alt="">
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
+            <img src="Assets/icon/bullets1.png" class="bullets two img-fluid" alt="">
             <div class="thumbnails">
                 <div class="thumb">
                     <img src="Assets/img/slideshow/thumbnail1.png" class="img-fluid" alt="">

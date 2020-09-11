@@ -534,24 +534,107 @@ body {
 
 #slideshow {
     padding: 150px 0;
+    overflow: hidden;
+}
+
+#slideshow .slideshow {
+    position: relative;
+}
+
+#slideshow .display {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #slideshow .display img {
     display: block;
     margin: auto;
+    scale: 0.9;
+}
+
+#slideshow .prev,
+#slideshow .next {
+    /* font-size: 40px;
+    position: absolute;
+    top: 150px; */
+    font-size: 40px;
+}
+
+#slideshow .next {
+    /* right: 0; */
 }
 
 #slideshow .thumbnails {
     display: flex;
     justify-content: space-around;
+    margin-top: 80px;
+    flex-wrap: nowrap;
 }
 
 #slideshow .thumbnails .thumb {
-    margin-top: 15px;
+    margin: 15px;
+    scale: 0.9;
 }
 
+#slideshow .slideshow .bullets.one {
+    position: absolute;
+    right: 195px;
+    top: -32px;
+    z-index: -1;
+}
 
-/* ---------------------- End Slideshow -----------------------*/
+#slideshow .slideshow .bullets.two {
+    position: absolute;
+    left: 200px;
+    bottom: 267px;
+    z-index: -1;
+}
+
+/* ---------- RESPONSIVE BREAKPOINTS ---------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #slideshow .slideshow .bullets.two {
+        left: 180px;
+        bottom: 98px;
+        z-index: -1;
+        scale: 0.6;
+    }
+
+    #slideshow .slideshow .bullets.one {
+        position: absolute;
+        right: 175px;
+        top: -45px;
+        scale: 0.6;
+    }
+
+    #slideshow .thumbnails .thumb {
+        scale: 1.5;
+    }
+
+    #slideshow .prev,
+    #slideshow .next {
+        font-size: 24px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #slideshow .prev,
+    #slideshow .next {
+        font-size: 28px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* ---------------------- End Slideshow  -----------------------*/
 
 /* ----------------------  Footer -----------------------*/
 
