@@ -139,6 +139,45 @@
             </div>
         </div>
     </section>
+
+    <section id="positions">
+        <h1>Struktur Organisasi</h1>
+        <div class="container ">
+            <div class="row positions one">
+                <div class="position">
+                    <img src="../Assets/icon/avatar1.png" class="img-fluid" alt="">
+                    <p>Drs. T. Catursas. KJ</p>
+                    <p>Kepala Sekolah</p>
+                </div>
+            </div>
+            <div class="row positions two">
+                <div class="position">
+                    <img src="../Assets/icon/avatar1.png" class="img-fluid" alt="">
+                    <p>Arif Munandar, M.Pd.</p>
+                    <p>Wakasek Kurikulum</p>
+                </div>
+                <div class="position">
+                    <img src="../Assets/icon/avatar1.png" class="img-fluid" alt="">
+                    <p>Ari Murwanto, S.Pd.</p>
+                    <p>Wakasek Kesiswaan</p>
+                </div>
+                <div class="position">
+                    <img src="../Assets/icon/avatar2.png" class="img-fluid" alt="">
+                    <p>Yulita Harini, S.Pd.</p>
+                    <p>Wakasek Sarana Prasarana</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="facilities">
+        <h1>Fasilitas</h1>
+        <div class="container facilities">
+            <div class="facility">
+                <img src="../Assets/img/fasilitas1.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </section> -->
     <!-- <section id="footer">
         <div class="container footer">
             <div class="row">

@@ -421,7 +421,7 @@ body {
 
 #school {
     padding: 150px 0;
-    background-image: linear-gradient(to bottom, white, #FBF9F6);
+    /* background-image: linear-gradient(to bottom, white, #FBF9F6); */
     border-radius: 0 0 250px 250px;
 }
 
@@ -506,7 +506,82 @@ body {
 
 /* ---------------------- End SCHOOL -----------------------*/
 
-/* ----------------------   -----------------------*/
+/* ----------------------  POSITIONS -----------------------*/
+
+#positions {
+    padding: 100px 0;
+    background-color: #E3E4E0;
+    border-radius: 250px 0 250px 0;
+}
+
+#positions h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #303030;
+    opacity: 0.6;
+    letter-spacing: 2px;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+#positions .positions .position {
+    width: 280px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    border-radius: 25px;
+}
+
+#positions .positions .position img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    float: left;
+    margin: 10px;
+}
+
+#positions .positions .position p:nth-child(2) {
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+}
+
+#positions .positions .position p:nth-child(3) {
+    margin-top: -35px;
+    text-align: center;
+    color: grey;
+    font-size: 14px;
+}
+
+/* ---------- RESPONSIVE BREAKPOINTS ---------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 767.98px) {
+    #positions h1 {
+        font-size: 26px;
+    }
+
+    #positions {
+        padding: 100px 0;
+        background-color: #E3E4E0;
+        border-radius: 50px 0 50px 0;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* ---------------------- End  -----------------------*/
+
+
+
 
 /* ----------------------  Footer -----------------------*/
 
