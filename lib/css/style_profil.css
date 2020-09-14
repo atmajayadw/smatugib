@@ -578,7 +578,117 @@ body {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
+/* ---------------------- End Positions -----------------------*/
+
+/* ----------------------  Facilities -----------------------*/
+
+#facilities {
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#facilities h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #303030;
+    opacity: 0.6;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+#facilities .bullets.one {
+    position: absolute;
+    left: 100px;
+}
+
+#facilities .bullets.two {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+#facilities .facilities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#facilities .facilities .facility {
+    margin-top: 50px;
+    width: 300px;
+}
+
+#facilities .facilities .facility img {
+    width: 100%;
+}
+
+#facilities .facilities .facility p {
+    color: #707070;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+
+/* ---------- RESPONSIVE BREAKPOINTS FACILITIES ---------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    #facilities h1 {
+        font-size: 26px;
+    }
+
+    #facilities .bullets.one {
+        left: -160px;
+        scale: 0.7;
+    }
+
+    #facilities .bullets.two {
+        right: -170px;
+        top: 100px;
+        scale: 0.7;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #facilities .bullets.one {
+        left: -70px;
+        scale: 0.8;
+    }
+
+    #facilities .bullets.two {
+        right: -70px;
+        top: 100px;
+        scale: 0.8;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #facilities .bullets.one {
+        left: 20px;
+        scale: 0.9;
+    }
+
+    #facilities .bullets.two {
+        right: 20px;
+        top: 100px;
+        scale: 0.9;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
 /* ---------------------- End  -----------------------*/
+
+
+
+
 
 
 

@@ -170,14 +170,26 @@
         </div>
     </section>
 
-    <!-- <section id="facilities">
+    <section id="facilities">
+        <img src="../Assets/icon/bullets6.png" class="bullets one img-fluid" alt="">
         <h1>Fasilitas</h1>
+        <img src="../Assets/icon/bullets7.png" class="bullets two img-fluid" alt="">
         <div class="container facilities">
             <div class="facility">
                 <img src="../Assets/img/fasilitas1.jpg" class="img-fluid" alt="">
+                <p>Kegiatan <br>Belajar Mengajar</p>
+            </div>
+            <div class="facility">
+                <img src="../Assets/img/fasilitas2.jpg" class="img-fluid" alt="">
+                <p>Fasilitas <br>Penunjang</p>
+            </div>
+            <div class="facility">
+                <img src="../Assets/img/fasilitas3.jpg" class="img-fluid" alt="">
+                <p>Extrakulikuler</p>
             </div>
         </div>
-    </section> -->
+    </section>
+
     <!-- <section id="footer">
         <div class="container footer">
             <div class="row">
