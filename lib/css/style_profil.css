@@ -756,16 +756,25 @@ body {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 767.98px) {
 
-    #footer .footer .one .ig,
-    #footer .footer .one .email,
-    #footer .footer .one .phone {
-        justify-content: center;
+    #footer .footer .one {
+        margin: 0 15%;
     }
 
     #footer .footer .copyright {
         font-size: 10px;
     }
 
+    #footer .footer .one {
+        order: 2;
+    }
+
+    #footer .footer .two {
+        order: 1;
+    }
+
+    #footer .footer .three {
+        order: 3;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */

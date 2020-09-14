@@ -190,7 +190,7 @@
         </div>
     </section>
 
-    <!-- <section id="footer">
+    <section id="footer">
         <div class="container footer">
             <div class="row">
                 <div class="col-md one">
@@ -218,7 +218,7 @@
             </div>
             <p class="copyright">Copyright © 2020 Sma Yaspen Tugu Ibu 1 Depok. All Rights Reserved</p>
         </div>
-    </section> -->
+    </section>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="../lib/bootstrap/js/jquery.js"> </script>
