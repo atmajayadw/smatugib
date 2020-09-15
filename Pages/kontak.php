@@ -48,11 +48,11 @@
         </div>
     </section>
 
-    <!-- <section id="jumbotron">
+    <section id="jumbotron">
         <div class="container jumbo">
-            <img src="../Assets/bg/ppdb_jumbo.png" alt="" class="img-fluid">
+            <img src="../Assets/bg/kontak_jumbo.png" alt="" class="img-fluid">
         </div>
-    </section> -->
+    </section>
 
 
 
