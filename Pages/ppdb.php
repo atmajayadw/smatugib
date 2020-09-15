@@ -32,10 +32,10 @@
             <div class="links">
                 <ul>
                     <li><a class="link" href="../">Beranda</a></li>
-                    <li><a class="link" href="">Profil</a></li>
-                    <li><a class="link" href="">PPDB</a></li>
-                    <li><a class="link" href="">Berita</a></li>
-                    <li><a class="link" href="">Kontak</a></li>
+                    <li><a class="link" href="/smatugib/pages/profil.php">Profil</a></li>
+                    <li><a class="link" href="/smatugib/pages/ppdb.php">PPDB</a></li>
+                    <li><a class="link" href="/smatugib/pages/berita.php">Berita</a></li>
+                    <li><a class="link" href="/smatugib/pages/kontak.php">Kontak</a></li>
                 </ul>
             </div>
             <div class="container sidebar">
@@ -50,11 +50,22 @@
 
     <section id="jumbotron">
         <div class="container jumbo">
-            <img src="../Assets/bg/profil_jumbo.png" alt="" class="img-fluid">
+            <img src="../Assets/bg/ppdb_jumbo.png" alt="" class="img-fluid">
         </div>
     </section>
 
-
+    <section id="ppdb">
+        <div class="container ppdb">
+            <div class="box info">
+                <img src="../Assets/icon/info.png" alt="">
+                <p>Informasi<br>Pendaftaran</p>
+            </div>
+            <div class="box regist">
+                <img src="../Assets/icon/regist.png" alt="">
+                <p>Pendaftaran<br>Online</p>
+            </div>
+        </div>
+    </section>
 
 
 

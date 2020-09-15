@@ -146,7 +146,56 @@ body {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {}
 
-/* ---------------------- End ---------------------- */
+/* ---------------------- End Jumbotron---------------------- */
+
+#ppdb {
+    padding: 100px 0;
+}
+
+#ppdb .ppdb {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#ppdb .ppdb .box {
+    width: 340px;
+    height: 340px;
+    background-color: #7F867B;
+    border-radius: 50px;
+    margin-top: 25px;
+    border: 3px solid #C7C7BB;
+}
+
+#ppdb .ppdb .box.regist {
+    background-color: #C7C7BB;
+    border: 3px solid #7F867B;
+}
+
+#ppdb .ppdb .box img {
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+
+#ppdb .ppdb .box.regist img {
+    width: 70%;
+}
+
+#ppdb .ppdb .box p {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+}
+
+#ppdb .ppdb .box.regist p {
+    margin-top: 0px;
+}
+
+
+
+
 
 
 /* ----------------------  Footer -----------------------*/
