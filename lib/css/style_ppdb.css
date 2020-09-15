@@ -150,12 +150,23 @@ body {
 
 #ppdb {
     padding: 100px 0;
+    overflow: hidden;
+}
+
+#ppdb h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #303030;
+    opacity: 0.6;
+    letter-spacing: 2px;
+    margin: 10px;
 }
 
 #ppdb .ppdb {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 
 #ppdb .ppdb .box {
@@ -165,6 +176,7 @@ body {
     border-radius: 50px;
     margin-top: 25px;
     border: 3px solid #C7C7BB;
+    position: relative;
 }
 
 #ppdb .ppdb .box.regist {
@@ -193,7 +205,51 @@ body {
     margin-top: 0px;
 }
 
+#ppdb .ppdb .box .bullets.one {
+    position: absolute;
+    top: -55px;
+    left: -90px;
+    z-index: -1;
+}
 
+#ppdb .ppdb .box .bullets.two {
+    position: absolute;
+    bottom: -58px;
+    right: -90px;
+    z-index: -1;
+}
+
+/* ---------- RESPONSIVE BREAKPOINTS ---------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #ppdb h1 {
+        font-size: 24px;
+    }
+
+    #ppdb .ppdb .box {
+        width: 220px;
+        height: 220px;
+    }
+
+    #ppdb .ppdb .box p {
+        font-size: 18px;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* ---------------------- End  -----------------------*/
+
+/* ----------------------   -----------------------*/
 
 
 

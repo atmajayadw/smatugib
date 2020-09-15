@@ -55,12 +55,16 @@
     </section>
 
     <section id="ppdb">
+        <h1>PENERIMAAN PESERTA DIDIK BARU</h1>
+        <h1>(PPDB)</h1>
         <div class="container ppdb">
             <div class="box info">
+                <img src="../Assets/icon/bullets2.png" class="bullets one" alt="">
                 <img src="../Assets/icon/info.png" alt="">
                 <p>Informasi<br>Pendaftaran</p>
             </div>
             <div class="box regist">
+                <img src="../Assets/icon/bullets3.png" class="bullets two" alt="">
                 <img src="../Assets/icon/regist.png" alt="">
                 <p>Pendaftaran<br>Online</p>
             </div>
