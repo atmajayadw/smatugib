@@ -147,94 +147,84 @@ body {
 
 /* ---------------------- End Jumbotron---------------------- */
 
-#ppdb {
+#contact {
     padding: 100px 0;
     overflow: hidden;
 }
 
-#ppdb h1 {
+#contact h1 {
     text-align: center;
     font-size: 36px;
-    color: #303030;
+    color: #414141;
     opacity: 0.6;
     letter-spacing: 2px;
-    margin: 10px;
 }
 
-#ppdb .ppdb {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+#contact .contact {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
     margin-top: 50px;
 }
 
-#ppdb .ppdb .box {
-    width: 340px;
-    height: 340px;
-    background-color: #7F867B;
-    border-radius: 50px;
-    margin-top: 25px;
-    border: 3px solid #C7C7BB;
-    position: relative;
+#contact .contact p {
+    line-height: 50px;
+    font-size: 20px;
+    color: #707070;
 }
 
-#ppdb .ppdb .box.regist {
-    background-color: #C7C7BB;
-    border: 3px solid #7F867B;
-}
-
-#ppdb .ppdb .box img {
-    width: 75%;
+#contact .contact .bullets.one {
     display: block;
-    margin: auto;
+    position: relative;
+    top: 30px;
+    left: 50px;
 }
 
-#ppdb .ppdb .box.regist img {
-    width: 70%;
+#contact .contact .bullets.two {
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 190px;
 }
 
-#ppdb .ppdb .box p {
-    font-size: 24px;
-    color: white;
-    text-align: center;
-    margin-top: -20px;
+#contact .maps iframe {
+    height: 500px;
+    width: 500px;
+    border-radius: 25px;
+    margin-top: 50px;
 }
 
-#ppdb .ppdb .box.regist p {
-    margin-top: 0px;
-}
 
-#ppdb .ppdb .box .bullets.one {
-    position: absolute;
-    top: -55px;
-    left: -90px;
-    z-index: -1;
-}
 
-#ppdb .ppdb .box .bullets.two {
-    position: absolute;
-    bottom: -58px;
-    right: -90px;
-    z-index: -1;
-}
+
 
 /* ---------- RESPONSIVE BREAKPOINTS ---------- */
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    #ppdb h1 {
+    #contact h1 {
         font-size: 24px;
     }
 
-    #ppdb .ppdb .box {
-        width: 220px;
-        height: 220px;
+    #contact .maps {
+        order: 1;
     }
 
-    #ppdb .ppdb .box p {
-        font-size: 18px;
+    #contact .contact {
+        order: 2;
     }
 
+    #contact .maps iframe {
+        height: 350px;
+        width: 100%;
+    }
+
+    #contact .contact p {
+        font-size: 14px;
+        text-align: justify;
+        line-height: 20px;
+
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */

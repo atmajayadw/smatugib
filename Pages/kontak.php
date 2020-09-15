@@ -18,6 +18,7 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="../lib/css/style_kontak.css">
     <link rel="stylesheet" href="../lib/animatecss/animate.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     <title>PPDB - SMA YASPEN TUGU IBU</title>
 </head>
@@ -54,7 +55,30 @@
         </div>
     </section>
 
-
+    <section id="contact">
+        <h1>Hubungi Kami</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm contact">
+                    <p><span class="material-icons">place</span>
+                        &nbsp&nbspJl. Sentosa Raya No.2, Kecamatan Sukmajaya, Kelurahan Mekarjaya
+                        Depok, Jawa Barat 16411</p>
+                    <p><span class="material-icons">call</span>&nbsp&nbsp(021)&nbsp7701264</p>
+                    <p><span class="material-icons">contact_mail</span>&nbsp&nbsp smatuguibu1depok@mail.com</p>
+                    <img src="../Assets/icon/bullets4.png" class="bullets one" alt="">
+                    <img src="../Assets/icon/bullets5.png" class="bullets two" alt="">
+                </div>
+                <div class="col-sm">
+                    <div class="maps wow">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.0591930889495!2d106.83631651477006!3d-6.386362695378951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69eb99e0a961b5%3A0x3a60113d85e0e647!2sSMA%20Yaspen%20Tugu%20Ibu%201%20Depok!5e0!3m2!1sid!2sid!4v1591174498645!5m2!1sid!2sid"
+                            width="500" height="500" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
