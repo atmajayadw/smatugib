@@ -147,108 +147,73 @@ body {
 
 /* ---------------------- End Jumbotron---------------------- */
 
-#ppdb {
-    padding: 100px 0;
-    overflow: hidden;
+/* ----------------------  News -----------------------*/
+
+#news {
+    padding: 80px 0;
+    background-color: #FBF9F6;
+    border-radius: 250px 0 250px 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-#ppdb h1 {
+#news h1 {
     text-align: center;
     font-size: 36px;
-    color: #303030;
+    color: #414141;
     opacity: 0.6;
     letter-spacing: 2px;
-    margin: 10px;
 }
 
-#ppdb .ppdb {
+#news .news_ {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 50px;
 }
 
-#ppdb .ppdb .box {
-    width: 340px;
-    height: 340px;
-    background-color: #7F867B;
-    border-radius: 50px;
+#news .news_ .news {
+    /* height: 400px; */
+    width: 250px;
+    border-radius: 25px;
+    background-color: white;
     margin-top: 25px;
-    border: 3px solid #C7C7BB;
-    position: relative;
+    padding: 10px;
 }
 
-#ppdb .ppdb .box.regist {
-    background-color: #C7C7BB;
-    border: 3px solid #7F867B;
-}
-
-#ppdb .ppdb .box img {
-    width: 75%;
+#news .news_ .news img {
+    width: 90%;
     display: block;
     margin: auto;
 }
 
-#ppdb .ppdb .box.regist img {
-    width: 70%;
+#news .news_ .news .title {
+    font-size: 20px;
+    color: #3E4C40;
+    margin-top: 5px;
 }
 
-#ppdb .ppdb .box p {
-    font-size: 24px;
-    color: white;
-    text-align: center;
-    margin-top: -20px;
+#news .news_ .news .text {
+    font-size: 14px;
+    color: #3E4C40;
+    font-weight: 300;
+    margin-top: -10px;
 }
 
-#ppdb .ppdb .box.regist p {
-    margin-top: 0px;
-}
-
-#ppdb .ppdb .box .bullets.one {
-    position: absolute;
-    top: -55px;
-    left: -90px;
-    z-index: -1;
-}
-
-#ppdb .ppdb .box .bullets.two {
-    position: absolute;
-    bottom: -58px;
-    right: -90px;
-    z-index: -1;
+#news .news_ .news .see-more {
+    font-weight: 300;
+    font-size: 12px;
 }
 
 /* ---------- RESPONSIVE BREAKPOINTS ---------- */
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    #ppdb h1 {
-        font-size: 24px;
+    #news h1 {
+        font-size: 26px;
     }
-
-    #ppdb .ppdb .box {
-        width: 220px;
-        height: 220px;
-    }
-
-    #ppdb .ppdb .box p {
-        font-size: 18px;
-    }
-
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
-
-/* ---------------------- End  -----------------------*/
-
-/* ----------------------   -----------------------*/
+/* ---------------------- End News -----------------------*/
 
 
 
