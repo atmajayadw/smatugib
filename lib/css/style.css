@@ -37,12 +37,6 @@ body {
     display: none;
 }
 
-/* #navbar .nav .link {
-    text-decoration: none;
-    color: #3E4C40;
-    font-family: 'Montserrat', sans-serif;
-} */
-
 #navbar .nav ul li {
     position: relative;
 }
@@ -53,20 +47,52 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+#navbar .nav .links .link:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #B9933B;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.5s;
+}
+
 #navbar .nav .links .link:after {
     content: '';
     position: absolute;
-    bottom: -10px;
-    left: 0;
+    bottom: -5px;
     right: 0;
     width: 100%;
     height: 3px;
+    background-color: #B9933B;
     transform: scaleX(0);
-    background-color: red;
-    transition: transform 0.3s;
+    transform-origin: bottom right;
+    transition: transform 0.5s;
 }
 
 #navbar .nav .links .link:hover:after {
+    transform: scaleX(1);
+}
+
+#navbar .nav .links .link:hover:before {
+    transform: scaleX(1);
+}
+
+#navbar .nav .links .link.active {
+    font-weight: 500;
+}
+
+#navbar .nav .links .link.active:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right: 25%;
+    width: 50%;
+    height: 3px;
+    background-color: #B9933B;
     transform: scaleX(1);
 }
 
@@ -149,7 +175,21 @@ body {
 .hamburger span.show2 {
     opacity: 0;
     transition: all 0.7s;
+}
 
+#navbar .sidebar .links .link.active {
+    font-weight: 500;
+}
+
+#navbar .sidebar .links .link.active:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right: 25%;
+    width: 50%;
+    height: 3px;
+    background-color: white;
+    transform: scaleX(1);
 }
 
 /* ---------- RESPONSIVE BREAKPOINTS NAVBAR ---------- */

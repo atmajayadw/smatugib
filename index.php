@@ -31,7 +31,7 @@
             </div>
             <div class="links">
                 <ul>
-                    <li><a class="link" href="../">Beranda</a></li>
+                    <li><a class="link active" href="../">Beranda</a></li>
                     <li><a class="link" href="/smatugib/pages/profil.php">Profil</a></li>
                     <li><a class="link" href="/smatugib/pages/ppdb.php">PPDB</a></li>
                     <li><a class="link" href="/smatugib/pages/berita.php">Berita</a></li>
@@ -46,7 +46,7 @@
                 </div>
                 <div class="links">
                     <ul>
-                        <li><a class="link" href="../">Beranda</a></li>
+                        <li><a class="link active" href="../">Beranda</a></li>
                         <li><a class="link" href="/smatugib/pages/profil.php">Profil</a></li>
                         <li><a class="link" href="/smatugib/pages/ppdb.php">PPDB</a></li>
                         <li><a class="link" href="/smatugib/pages/berita.php">Berita</a></li>
