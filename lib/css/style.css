@@ -243,6 +243,7 @@ body {
     padding: 30px;
     box-sizing: border-box;
     height: 100%;
+    overflow: hidden;
 }
 
 #jumbotron .jumbo-left {
@@ -284,6 +285,13 @@ body {
     font-size: 24px;
     color: white;
     border-radius: 50px;
+    border: 1px solid #B9933B;
+}
+
+#jumbotron .jumbo-right .explore-btn:hover {
+    color: #B9933B;
+    background-color: white;
+    border: 1px solid #B9933B;
 }
 
 /* ---------- RESPONSIVE BREAKPOINTS JUMBOTRON ---------- */
