@@ -25,33 +25,35 @@
 <body>
 
     <section id="navbar">
-        <div class="container nav">
-            <div class="logo">
-                <img src="../Assets/icon/tugib.png" alt="">
-            </div>
-            <div class="links">
-                <ul>
-                    <li><a class="link" href="../">Beranda</a></li>
-                    <li><a class="link active" href="/smatugib/pages/profil.php">Profil</a></li>
-                    <li><a class="link" href="/smatugib/pages/ppdb.php">PPDB</a></li>
-                    <li><a class="link" href="/smatugib/pages/berita.php">Berita</a></li>
-                    <li><a class="link" href="/smatugib/pages/kontak.php">Kontak</a></li>
-                </ul>
-            </div>
-            <div class="container sidebar">
-                <div class="hamburger">
-                    <span class="line1"></span>
-                    <span class="line2"></span>
-                    <span class="line3"></span>
+        <div class="container-fluid navbar">
+            <div class="container nav">
+                <div class="logo">
+                    <a href="/smatugib"><img src="../Assets/icon/tugib.png" alt="logo"></a>
                 </div>
                 <div class="links">
                     <ul>
-                        <li><a class="link" href="../">Beranda</a></li>
+                        <li><a class="link active" href="/smatugib">Beranda</a></li>
                         <li><a class="link active" href="/smatugib/pages/profil.php">Profil</a></li>
                         <li><a class="link" href="/smatugib/pages/ppdb.php">PPDB</a></li>
                         <li><a class="link" href="/smatugib/pages/berita.php">Berita</a></li>
                         <li><a class="link" href="/smatugib/pages/kontak.php">Kontak</a></li>
                     </ul>
+                </div>
+                <div class="container sidebar">
+                    <div class="hamburger">
+                        <span class="line1"></span>
+                        <span class="line2"></span>
+                        <span class="line3"></span>
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <li><a class="link" href="/smatugib">Beranda</a></li>
+                            <li><a class="link active" href="/smatugib/pages/profil.php">Profil</a></li>
+                            <li><a class="link" href="/smatugib/pages/ppdb.php">PPDB</a></li>
+                            <li><a class="link" href="/smatugib/pages/berita.php">Berita</a></li>
+                            <li><a class="link" href="/smatugib/pages/kontak.php">Kontak</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -128,20 +130,26 @@
                 </div>
                 <div class="col-md right">
                     <h5>Tentang Sekolah</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent semper consequat aliquam. Proin
-                        eget rhoncus augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent semper consequat
+                        aliquam. Proin
+                        eget rhoncus augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                        posuere
                         cubilia
-                        curae; Aenean mattis egestas urna, at pretium sapien malesuada id. Fusce sit amet mauris nunc.
+                        curae; Aenean mattis egestas urna, at pretium sapien malesuada id. Fusce sit amet mauris
+                        nunc.
                         Ut
-                        porta hendrerit commodo. Sed eu bibendum est. Nullam dapibus at turpis ac condimentum. Curabitur
+                        porta hendrerit commodo. Sed eu bibendum est. Nullam dapibus at turpis ac condimentum.
+                        Curabitur
                         in porta est.
                         <br>
                         <br>Sed ut lacus vitae ex lobortis mollis. Lorem ipsum dolor sit amet consectetur
                         adipisicing
-                        elit. Incidunt placeat facere enim corrupti sunt cum ea, libero id possimus ad ducimus numquam
+                        elit. Incidunt placeat facere enim corrupti sunt cum ea, libero id possimus ad ducimus
+                        numquam
                         aspernatur nihil accusamus eos maiores repudiandae deserunt doloremque molestiae ab!
                         Accusantium,
-                        eum animi laudantium ipsam ut facilis soluta qui vero, labore consectetur alias tempore amet,
+                        eum animi laudantium ipsam ut facilis soluta qui vero, labore consectetur alias tempore
+                        amet,
                         possimus magnam! Sed.
                     </p>
                 </div>

@@ -26,33 +26,35 @@
 <body>
 
     <section id="navbar">
-        <div class="container nav">
-            <div class="logo">
-                <img src="../Assets/icon/tugib.png" alt="">
-            </div>
-            <div class="links">
-                <ul>
-                    <li><a class="link" href="../">Beranda</a></li>
-                    <li><a class="link" href="/smatugib/pages/profil.php">Profil</a></li>
-                    <li><a class="link" href="/smatugib/pages/ppdb.php">PPDB</a></li>
-                    <li><a class="link" href="/smatugib/pages/berita.php">Berita</a></li>
-                    <li><a class="link active" href="/smatugib/pages/kontak.php">Kontak</a></li>
-                </ul>
-            </div>
-            <div class="container sidebar">
-                <div class="hamburger">
-                    <span class="line1"></span>
-                    <span class="line2"></span>
-                    <span class="line3"></span>
+        <div class="container-fluid navbar">
+            <div class="container nav">
+                <div class="logo">
+                    <a href="/smatugib"><img src="../Assets/icon/tugib.png" alt="logo"></a>
                 </div>
                 <div class="links">
                     <ul>
-                        <li><a class="link" href="../">Beranda</a></li>
+                        <li><a class="link active" href="/smatugib">Beranda</a></li>
                         <li><a class="link" href="/smatugib/pages/profil.php">Profil</a></li>
                         <li><a class="link" href="/smatugib/pages/ppdb.php">PPDB</a></li>
                         <li><a class="link" href="/smatugib/pages/berita.php">Berita</a></li>
                         <li><a class="link active" href="/smatugib/pages/kontak.php">Kontak</a></li>
                     </ul>
+                </div>
+                <div class="container sidebar">
+                    <div class="hamburger">
+                        <span class="line1"></span>
+                        <span class="line2"></span>
+                        <span class="line3"></span>
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <li><a class="link" href="/smatugib">Beranda</a></li>
+                            <li><a class="link" href="/smatugib/pages/profil.php">Profil</a></li>
+                            <li><a class="link" href="/smatugib/pages/ppdb.php">PPDB</a></li>
+                            <li><a class="link" href="/smatugib/pages/berita.php">Berita</a></li>
+                            <li><a class="link active" href="/smatugib/pages/kontak.php">Kontak</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

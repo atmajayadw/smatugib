@@ -24,6 +24,23 @@ body {
     align-items: center;
 }
 
+#navbar .navbar {
+    transition: all ease-in-out 1s;
+    position: relative;
+    border-bottom: whitesmoke 0px solid;
+    z-index: 10;
+}
+
+#navbar .navbar.sticky {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all ease-in-out 1s;
+    border-bottom: whitesmoke 2px solid;
+}
+
 #navbar .nav ul {
     list-style: none;
     display: flex;
@@ -432,6 +449,11 @@ body {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
+    transition: 0.5s;
+}
+
+#about .box:hover {
+    scale: 0.8;
 }
 
 #about .box p:nth-child(2) {
