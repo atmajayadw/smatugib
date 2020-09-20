@@ -700,19 +700,27 @@ body {
     display: block;
     margin: auto;
     scale: 0.9;
+    transition: 0.5s;
 }
 
 #slideshow .prev,
 #slideshow .next {
-    /* font-size: 40px;
-    position: absolute;
-    top: 150px; */
     font-size: 40px;
+    cursor: pointer;
+    color: #3E4C40;
+    transition: 0.5s;
+    width: 40px;
+    text-align: center;
+    border-radius: 25px;
 }
 
-#slideshow .next {
-    /* right: 0; */
+#slideshow .prev:hover,
+#slideshow .next:hover {
+    color: white;
+    background-color: #3E4C40;
 }
+
+#slideshow .next {}
 
 #slideshow .thumbnails {
     display: flex;
@@ -724,6 +732,13 @@ body {
 #slideshow .thumbnails .thumb {
     margin: 15px;
     scale: 0.9;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+#slideshow .thumbnails .thumb.active {
+    opacity: 1;
 }
 
 #slideshow .slideshow .bullets.one {

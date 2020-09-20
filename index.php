@@ -68,7 +68,7 @@
                 <div class="col-md-6 jumbo-right">
                     <p>Selamat Datang di Website Resmi</p>
                     <p>SMA YASPEN TUGU IBU</p>
-                    <button class="btn explore-btn">Explore</button>
+                    <button class="btn explore-btn" href="#welcome">Explore</button>
                 </div>
             </div>
         </div>
@@ -103,18 +103,18 @@
             <div class="boxes">
                 <div class="box one">
                     <img src="Assets/icon/guru.png" alt="">
-                    <p>33</p>
+                    <p class="number">33</p>
                     <p>Guru Bersertifikasi</p>
                 </div>
                 <div class="box two">
                     <img src="Assets/icon/siswa.png" alt="">
-                    <p>40</p>
+                    <p class="number">40</p>
                     <p>Jumlah Siswa <br> Per Kelas</p>
                 </div>
                 <div class="box three">
                     <img src="Assets/icon/kelulusan.png" alt="">
-                    <p>100%</p>
-                    <p>Tingkat Kelulusan</p>
+                    <p class="number">100</p>
+                    <p>Persen<br>Tingkat Kelulusan</p>
                 </div>
             </div>
             <img src="Assets/icon/bullets5.png" class="bullets three img-fluid" alt="">
@@ -182,23 +182,27 @@
             <div class="display">
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <img src="Assets/img/slideshow/1.jpg" class="slides img-fluid" alt="">
+                <img src="Assets/img/slideshow/2.jpg" class="slides img-fluid" alt="">
+                <img src="Assets/img/slideshow/3.jpg" class="slides img-fluid" alt="">
+                <img src="Assets/img/slideshow/4.jpg" class="slides img-fluid" alt="">
+                <img src="Assets/img/slideshow/5.jpg" class="slides img-fluid" alt="">
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
             <img src="Assets/icon/bullets1.png" class="bullets two img-fluid" alt="">
             <div class="thumbnails">
-                <div class="thumb">
+                <div class="thumb" onclick="currentSlide(1)">
                     <img src="Assets/img/slideshow/thumbnail1.png" class="img-fluid" alt="">
                 </div>
-                <div class="thumb">
+                <div class="thumb" onclick="currentSlide(2)">
                     <img src="Assets/img/slideshow/thumbnail2.png" class="img-fluid" alt="">
                 </div>
-                <div class="thumb">
+                <div class="thumb" onclick="currentSlide(3)">
                     <img src="Assets/img/slideshow/thumbnail3.png" class="img-fluid" alt="">
                 </div>
-                <div class="thumb">
+                <div class="thumb" onclick="currentSlide(4)">
                     <img src="Assets/img/slideshow/thumbnail4.png" class="img-fluid" alt="">
                 </div>
-                <div class="thumb">
+                <div class="thumb" onclick="currentSlide(5)">
                     <img src="Assets/img/slideshow/thumbnail5.png" class="img-fluid" alt="">
                 </div>
             </div>
