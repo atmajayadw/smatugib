@@ -45,6 +45,15 @@
                     <span class="line2"></span>
                     <span class="line3"></span>
                 </div>
+                <div class="links">
+                    <ul>
+                        <li><a class="link" href="../">Beranda</a></li>
+                        <li><a class="link" href="/smatugib/pages/profil.php">Profil</a></li>
+                        <li><a class="link" href="/smatugib/pages/ppdb.php">PPDB</a></li>
+                        <li><a class="link" href="/smatugib/pages/berita.php">Berita</a></li>
+                        <li><a class="link" href="/smatugib/pages/kontak.php">Kontak</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -79,14 +88,6 @@
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
-
 
     <section id="footer">
         <div class="container footer">
@@ -128,7 +129,7 @@
     <!-- Optional JavaScript -->
     <script src="../lib/wowjs/wow.min.js"></script>
     <script src="../lib/jqueryeasing/jquery.easing.1.3.js"></script>
-    <script src="../lib/js/script.js"></script>
+    <script src="../lib/js/script_kontak.js"></script>
 
 </body>
 
