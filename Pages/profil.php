@@ -62,11 +62,11 @@
     <section id="jumbotron">
         <div class="container jumbo">
             <img src="../Assets/bg/profil_jumbo.png" alt="" class="img-fluid">
-            <div class="btn-scroll">
+            <a class="btn-scroll" href="#profiles">
                 <span>
                     &#10095;
                 </span>
-            </div>
+            </a>
         </div>
     </section>
 
@@ -96,6 +96,11 @@
         <img src="../Assets/icon/bullets5.png" class="bullets four img-fluid" alt="">
     </section>
 
+    <section id="parallax1">
+        <div class="parallax1">
+        </div>
+    </section>
+
     <section id="visimisi">
         <div class="container visimisi">
             <div class="row">
@@ -122,6 +127,11 @@
                         rhoncus augue.<br></p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section id="parallax2">
+        <div class="parallax2">
         </div>
     </section>
 

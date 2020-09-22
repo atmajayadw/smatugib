@@ -267,6 +267,7 @@ body {
     margin-top: 10px;
     animation: blinkingText 1.2s infinite;
     cursor: pointer;
+    text-decoration: none;
 }
 
 #jumbotron .jumbo .btn-scroll span {
@@ -274,6 +275,7 @@ body {
     text-align: center;
     margin: 12px;
     color: whitesmoke;
+    text-decoration: none;
 }
 
 @keyframes blinkingText {
@@ -372,6 +374,12 @@ body {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#profiles .profiles .profile:hover {
+    scale: 0.9;
 }
 
 #profiles .profiles .profile img {
@@ -979,25 +987,30 @@ body {
 
 /* ---------------------- End  -----------------------*/
 
+/* ---------------------- Parallax  -----------------------*/
 
+#parallax1 {
+    margin-top: 100px;
+    width: 100%;
+    height: 700px;
+    background-color: red;
+    background-image: url('../../Assets/img/parallax/parallax3.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
 
-
-
-
-/* ---------- RESPONSIVE BREAKPOINTS ---------- */
-
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
-
-/* ---------------------- End  -----------------------*/
-
-/* ----------------------   -----------------------*/
+#parallax2 {
+    margin-top: 100px;
+    width: 100%;
+    height: 700px;
+    background-color: red;
+    background-image: url('../../Assets/img/parallax/parallax1.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
