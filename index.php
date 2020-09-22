@@ -68,9 +68,14 @@
                 <div class="col-md-6 jumbo-right">
                     <p>Selamat Datang di Website Resmi</p>
                     <p>SMA YASPEN TUGU IBU</p>
-                    <button class="btn explore-btn" href="#welcome">Explore</button>
+                    <button class="btn explore-btn" href="#welcome">Explore!</button>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section id="parallax1">
+        <div class="parallax1">
         </div>
     </section>
 
@@ -119,6 +124,11 @@
             </div>
             <img src="Assets/icon/bullets5.png" class="bullets three img-fluid" alt="">
             <img src="Assets/icon/bullets4.png" class="bullets four img-fluid" alt="">
+        </div>
+    </section>
+
+    <section id="parallax2">
+        <div class="parallax2">
         </div>
     </section>
 
