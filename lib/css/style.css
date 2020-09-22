@@ -754,6 +754,7 @@ body {
     right: 195px;
     top: -32px;
     z-index: -1;
+    transition: 0.5s;
 }
 
 #slideshow .slideshow .bullets.two {
@@ -761,6 +762,7 @@ body {
     left: 200px;
     bottom: 267px;
     z-index: -1;
+    transition: 0.5s;
 }
 
 /* ---------- RESPONSIVE BREAKPOINTS ---------- */
