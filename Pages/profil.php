@@ -62,6 +62,11 @@
     <section id="jumbotron">
         <div class="container jumbo">
             <img src="../Assets/bg/profil_jumbo.png" alt="" class="img-fluid">
+            <div class="btn-scroll">
+                <span>
+                    &#10095;
+                </span>
+            </div>
         </div>
     </section>
 
