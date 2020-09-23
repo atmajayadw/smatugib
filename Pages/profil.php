@@ -236,6 +236,13 @@
         </div>
     </section>
 
+    <!-- The Modal -->
+    <div id="modal-facilities" class="modal-facilities">
+        <span id="close-modal">x</span>
+        <img class="modal-facilities-content" id="modal-img">
+        <div id="modal-caption"></div>
+    </div>
+
     <section id="facilities-panel">
         <div class="container p-2">
             <div class="facilities-panel" id="facility-panel-1">
@@ -245,23 +252,23 @@
                 </span>
                 <div class="facilities">
                     <div class="facility-child">
-                        <img src="../Assets/img/fasilitas-thumb/kelas.jpg" class="img-fluid" alt="">
+                        <img src="../Assets/img/fasilitas-thumb/kelas.jpg" class="img-fluid" alt="Ruang Kelas">
                         <p>Ruang <br>Kelas</p>
                     </div>
                     <div class="facility-child">
-                        <img src="../Assets/img/fasilitas-thumb/komputer.jpg" class="img-fluid" alt="">
+                        <img src="../Assets/img/fasilitas-thumb/komputer.jpg" class="img-fluid" alt="Lab Komputer">
                         <p>Lab <br>Komputer</p>
                     </div>
                     <div class="facility-child">
-                        <img src="../Assets/img/fasilitas-thumb/ipa.jpg" class="img-fluid" alt="">
+                        <img src="../Assets/img/fasilitas-thumb/ipa.jpg" class="img-fluid" alt="Lab IPA">
                         <p>Lab <br>IPA</p>
                     </div>
                     <div class="facility-child">
-                        <img src="../Assets/img/fasilitas-thumb/uks.jpg" class="img-fluid" alt="">
+                        <img src="../Assets/img/fasilitas-thumb/uks.jpg" class="img-fluid" alt="UKS">
                         <p>UKS</p>
                     </div>
                     <div class="facility-child">
-                        <img src="../Assets/img/fasilitas-thumb/perpus.jpg" class="img-fluid" alt="">
+                        <img src="../Assets/img/fasilitas-thumb/perpus.jpg" class="img-fluid" alt="Perpustakaan">
                         <p>Perpustakaan</p>
                     </div>
                 </div>
