@@ -564,6 +564,19 @@ body {
 #visimisi .visimisi .right {
     line-height: 2.5;
     margin-top: 100px;
+    opacity: 0;
+    transform: translate(-80px, 0);
+    transition: 0.5s;
+}
+
+#visimisi .visimisi .right {
+    transform: translate(80px, 0);
+}
+
+#visimisi .visimisi .left.show,
+#visimisi .visimisi .right.show {
+    opacity: 1;
+    transform: translate(0, 0);
 }
 
 #visimisi .visimisi .left h4,
@@ -637,6 +650,17 @@ body {
     margin: auto;
     z-index: 2;
     position: relative;
+}
+
+#school .right {
+    opacity: 0;
+    transform: translate(80px, 0);
+    transition: 0.5s;
+}
+
+#school .right.show {
+    opacity: 1;
+    transform: translate(0, 0);
 }
 
 #school .right h5 {
@@ -733,6 +757,14 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 20px auto;
     border-radius: 25px;
+    transition: 0.5s;
+    transform: translate(0, -50px);
+    opacity: 0;
+}
+
+#positions .positions .position.show {
+    opacity: 1;
+    transform: translate(0, 0);
 }
 
 #positions .positions .position img {

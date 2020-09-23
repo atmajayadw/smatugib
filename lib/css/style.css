@@ -353,6 +353,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    transform: translate(80px, 0);
+    transition: 1s;
+}
+
+#welcome .welcome-right.show {
+    opacity: 1;
+    transform: translate(0, 0);
 }
 
 #welcome .welcome-right p:nth-child(1) {

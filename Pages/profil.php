@@ -280,23 +280,24 @@
                 </span>
                 <div class="facilities">
                     <div class="facility-child">
-                        <img src="../Assets/img/fasilitas-thumb/lapupacara.jpg" class="img-fluid" alt="">
+                        <img src="../Assets/img/fasilitas-thumb/lapupacara.jpg" class="img-fluid"
+                            alt="Lapangan Upacara">
                         <p>Lapangan <br>Upacara</p>
                     </div>
                     <div class="facility-child">
-                        <img src="../Assets/img/fasilitas-thumb/lapbasket.jpg" class="img-fluid" alt="">
+                        <img src="../Assets/img/fasilitas-thumb/lapbasket.jpg" class="img-fluid" alt="Lapangan Basket">
                         <p>Lapangan <br>Basket</p>
                     </div>
                     <div class="facility-child">
-                        <img src="../Assets/img/fasilitas-thumb/mushola.jpg" class="img-fluid" alt="">
+                        <img src="../Assets/img/fasilitas-thumb/mushola.jpg" class="img-fluid" alt="Mushola">
                         <p>Mushola</p>
                     </div>
                     <div class="facility-child">
-                        <img src="../Assets/img/fasilitas-thumb/kantin.jpg" class="img-fluid" alt="">
+                        <img src="../Assets/img/fasilitas-thumb/kantin.jpg" class="img-fluid" alt="Kantin">
                         <p>Kantin</p>
                     </div>
                     <div class="facility-child">
-                        <img src="../Assets/img/fasilitas-thumb/satpam.jpg" class="img-fluid" alt="">
+                        <img src="../Assets/img/fasilitas-thumb/satpam.jpg" class="img-fluid" alt="Pos Satpam">
                         <p>Pos <br> Satpam</p>
                     </div>
                 </div>
@@ -308,19 +309,19 @@
                 </span>
                 <div class="facilities">
                     <div class="facility-child">
-                        <img src="../Assets/img/fasilitas-thumb/basket.jpg" class="img-fluid" alt="">
+                        <img src="../Assets/img/fasilitas-thumb/basket.jpg" class="img-fluid" alt="Basket">
                         <p>Basket</p>
                     </div>
                     <div class="facility-child">
-                        <img src="../Assets/img/fasilitas-thumb/futsal.jpg" class="img-fluid" alt="">
+                        <img src="../Assets/img/fasilitas-thumb/futsal.jpg" class="img-fluid" alt="Futsal">
                         <p>Futsal</p>
                     </div>
                     <div class="facility-child">
-                        <img src="../Assets/img/fasilitas-thumb/bulutangkis.jpg" class="img-fluid" alt="">
+                        <img src="../Assets/img/fasilitas-thumb/bulutangkis.jpg" class="img-fluid" alt="Bulutangkis">
                         <p>Bulutangkis</p>
                     </div>
                     <div class="facility-child">
-                        <img src="../Assets/img/fasilitas-thumb/iptek.png" class="img-fluid" alt="">
+                        <img src="../Assets/img/fasilitas-thumb/iptek.png" class="img-fluid" alt="IPTEK">
                         <p>IPTEK</p>
                     </div>
                 </div>
