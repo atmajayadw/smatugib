@@ -215,26 +215,118 @@
         <img src="../Assets/icon/bullets6.png" class="bullets one img-fluid" alt="">
         <h1>Fasilitas</h1>
         <img src="../Assets/icon/bullets7.png" class="bullets two img-fluid" alt="">
-        <div class="container facilities">
-            <div class="facility">
+        <d class="container facilities">
+            <a class="facility" data-name="facility-panel-1" href="#facilities-panel">
                 <img src="../Assets/img/fasilitas1.jpg" class="img-fluid" alt="">
                 <p>Kegiatan <br>Belajar Mengajar</p>
-            </div>
-            <div class="facility">
+            </a>
+            <a class="facility" data-name="facility-panel-2" href="#facilities-panel">
                 <img src="../Assets/img/fasilitas2.jpg" class="img-fluid" alt="">
                 <p>Fasilitas <br>Penunjang</p>
-            </div>
-            <div class="facility">
+            </a>
+            <a class="facility" data-name="facility-panel-3" href="#facilities-panel">
                 <img src="../Assets/img/fasilitas3.jpg" class="img-fluid" alt="">
                 <p>Extrakulikuler</p>
-            </div>
-        </div>
+            </a>
+        </d>
         <div class="container">
             <div class="row">
                 <div class="col back mt-2"><a href="#profiles" class="back-btn">Kembali</a></div>
             </div>
         </div>
     </section>
+
+    <section id="facilities-panel">
+        <div class="container p-2">
+            <div class="facilities-panel" id="facility-panel-1">
+                <h1>Kegiatan Belajar Mengajar</h1>
+                <span class="exit" href="#facilities">
+                    <p>x</p>
+                </span>
+                <div class="facilities">
+                    <div class="facility-child">
+                        <img src="../Assets/img/fasilitas-thumb/kelas.jpg" class="img-fluid" alt="">
+                        <p>Ruang <br>Kelas</p>
+                    </div>
+                    <div class="facility-child">
+                        <img src="../Assets/img/fasilitas-thumb/komputer.jpg" class="img-fluid" alt="">
+                        <p>Lab <br>Komputer</p>
+                    </div>
+                    <div class="facility-child">
+                        <img src="../Assets/img/fasilitas-thumb/ipa.jpg" class="img-fluid" alt="">
+                        <p>Lab <br>IPA</p>
+                    </div>
+                    <div class="facility-child">
+                        <img src="../Assets/img/fasilitas-thumb/uks.jpg" class="img-fluid" alt="">
+                        <p>UKS</p>
+                    </div>
+                    <div class="facility-child">
+                        <img src="../Assets/img/fasilitas-thumb/perpus.jpg" class="img-fluid" alt="">
+                        <p>Perpustakaan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="facilities-panel" id="facility-panel-2">
+                <h1>Fasilitas Penunjang</h1>
+                <span class="exit" href="#facilities">
+                    <p>x</p>
+                </span>
+                <div class="facilities">
+                    <div class="facility-child">
+                        <img src="../Assets/img/fasilitas-thumb/lapupacara.jpg" class="img-fluid" alt="">
+                        <p>Lapangan <br>Upacara</p>
+                    </div>
+                    <div class="facility-child">
+                        <img src="../Assets/img/fasilitas-thumb/lapbasket.jpg" class="img-fluid" alt="">
+                        <p>Lapangan <br>Basket</p>
+                    </div>
+                    <div class="facility-child">
+                        <img src="../Assets/img/fasilitas-thumb/mushola.jpg" class="img-fluid" alt="">
+                        <p>Mushola</p>
+                    </div>
+                    <div class="facility-child">
+                        <img src="../Assets/img/fasilitas-thumb/kantin.jpg" class="img-fluid" alt="">
+                        <p>Kantin</p>
+                    </div>
+                    <div class="facility-child">
+                        <img src="../Assets/img/fasilitas-thumb/satpam.jpg" class="img-fluid" alt="">
+                        <p>Pos <br> Satpam</p>
+                    </div>
+                </div>
+            </div>
+            <div class="facilities-panel" id="facility-panel-3">
+                <h1>Ekstrakulikuler</h1>
+                <span class="exit" href="#facilities">
+                    <p>x</p>
+                </span>
+                <div class="facilities">
+                    <div class="facility-child">
+                        <img src="../Assets/img/fasilitas-thumb/basket.jpg" class="img-fluid" alt="">
+                        <p>Basket</p>
+                    </div>
+                    <div class="facility-child">
+                        <img src="../Assets/img/fasilitas-thumb/futsal.jpg" class="img-fluid" alt="">
+                        <p>Futsal</p>
+                    </div>
+                    <div class="facility-child">
+                        <img src="../Assets/img/fasilitas-thumb/bulutangkis.jpg" class="img-fluid" alt="">
+                        <p>Bulutangkis</p>
+                    </div>
+                    <div class="facility-child">
+                        <img src="../Assets/img/fasilitas-thumb/iptek.png" class="img-fluid" alt="">
+                        <p>IPTEK</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
 
     <section id="footer">
         <div class="container footer">

@@ -821,6 +821,7 @@ body {
     width: 300px;
     cursor: pointer;
     transition: 0.5s;
+    text-decoration: none;
 }
 
 #facilities .facilities .facility p:hover,
@@ -898,9 +899,84 @@ body {
 
 /* ---------------------- End  -----------------------*/
 
+#facilities-panel {
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+}
 
+#facilities-panel h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #303030;
+    opacity: 0.6;
+    letter-spacing: 2px;
+    margin: 10px;
+}
 
+#facilities-panel span {
+    position: absolute;
+    right: 3%;
+    top: 10px;
+    background-color: #B9933B;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
 
+#facilities-panel span p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+#facilities-panel span:hover {
+    opacity: 0.8;
+}
+
+#facilities-panel .facilities-panel {
+    display: none;
+    border: 1px solid #B9933B;
+    border-radius: 25px;
+    position: relative;
+}
+
+#facilities-panel .facilities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#facilities-panel .facilities-panel .facility-child {
+    margin-top: 50px;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#facilities-panel .facilities-panel .facility-child p:hover,
+#facilities-panel .facilities-panel .facility-child img:hover {
+    scale: 0.9;
+    opacity: 0.8;
+}
+
+#facilities-panel .facilities-panel .facility-child img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+#facilities-panel .facilities-panel .facility-child p {
+    color: #707070;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: 400;
+    transition: 0.5s;
+}
 
 
 
