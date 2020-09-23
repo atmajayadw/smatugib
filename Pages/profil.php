@@ -75,19 +75,19 @@
         <img src="../Assets/icon/bullets5.png" class="bullets one img-fluid" alt="">
         <img src="../Assets/icon/bullets4.png" class="bullets two img-fluid" alt="">
         <div class="container profiles">
-            <div class="profile one">
+            <div class="profile one" href="#visimisi">
                 <img src="../Assets/icon/visimisi.png" alt="">
                 <p>Visi & Misi</p>
             </div>
-            <div class="profile two">
+            <div class="profile two" href="#school">
                 <img src="../Assets/icon/sekolah.png" alt="">
                 <p>Tentang<br>Sekolah</p>
             </div>
-            <div class="profile three">
+            <div class="profile three" href="#positions">
                 <img src="../Assets/icon/lab.png" alt="">
                 <p>Struktur<br>Organisasi</p>
             </div>
-            <div class="profile four">
+            <div class="profile four" href="#facilities">
                 <img src="../Assets/icon/struktur.png" alt="">
                 <p>Fasilitas</p>
             </div>
@@ -126,6 +126,9 @@
                         4. Praesent semper consequat aliquam, proin eget
                         rhoncus augue.<br></p>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col back mt-2"><a href="#profiles" class="back-btn">Kembali</a></div>
             </div>
         </div>
     </section>
@@ -169,6 +172,9 @@
                     </p>
                 </div>
             </div>
+            <div class="row">
+                <div class="col back mt-2"><a href="#profiles" class="back-btn">Kembali</a></div>
+            </div>
         </div>
     </section>
 
@@ -199,6 +205,9 @@
                     <p>Wakasek Sarana Prasarana</p>
                 </div>
             </div>
+            <div class="row">
+                <div class="col back mt-2"><a href="#profiles" class="back-btn">Kembali</a></div>
+            </div>
         </div>
     </section>
 
@@ -218,6 +227,11 @@
             <div class="facility">
                 <img src="../Assets/img/fasilitas3.jpg" class="img-fluid" alt="">
                 <p>Extrakulikuler</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col back mt-2"><a href="#profiles" class="back-btn">Kembali</a></div>
             </div>
         </div>
     </section>

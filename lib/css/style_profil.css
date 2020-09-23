@@ -324,6 +324,9 @@ body {
         margin: 10px;
     }
 
+    #jumbotron .jumbo .btn-scroll {
+        display: none;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -619,7 +622,7 @@ body {
 /* ---------------------- ABOUT SCHOOL  -----------------------*/
 
 #school {
-    padding: 150px 0;
+    padding: 100px 0;
     /* background-image: linear-gradient(to bottom, white, #FBF9F6); */
     border-radius: 0 0 250px 250px;
 }
@@ -708,7 +711,7 @@ body {
 /* ----------------------  POSITIONS -----------------------*/
 
 #positions {
-    padding: 100px 0;
+    padding: 150px 0;
     background-color: #E3E4E0;
     border-radius: 250px 0 250px 0;
 }
@@ -816,10 +819,19 @@ body {
 #facilities .facilities .facility {
     margin-top: 50px;
     width: 300px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#facilities .facilities .facility p:hover,
+#facilities .facilities .facility img:hover {
+    scale: 0.9;
+    opacity: 0.8;
 }
 
 #facilities .facilities .facility img {
     width: 100%;
+    transition: 0.5s;
 }
 
 #facilities .facilities .facility p {
@@ -828,6 +840,7 @@ body {
     font-size: 18px;
     margin-top: 15px;
     font-weight: 400;
+    transition: 0.5s;
 }
 
 
@@ -1013,4 +1026,9 @@ body {
     background-position: center;
     background-size: cover;
     opacity: 0.5;
+}
+
+.back {
+    color: blue;
+    text-align: right;
 }
