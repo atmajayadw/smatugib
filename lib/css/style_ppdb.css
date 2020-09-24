@@ -369,6 +369,12 @@ body {
     margin-top: 25px;
     border: 3px solid #C7C7BB;
     position: relative;
+    cursor: pointer;
+}
+
+#ppdb .ppdb .box img:hover,
+#ppdb .ppdb .box p:hover {
+    scale: 0.9;
 }
 
 #ppdb .ppdb .box.regist {
@@ -380,6 +386,8 @@ body {
     width: 75%;
     display: block;
     margin: auto;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 #ppdb .ppdb .box.regist img {
@@ -391,6 +399,8 @@ body {
     color: white;
     text-align: center;
     margin-top: -20px;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 #ppdb .ppdb .box.regist p {
