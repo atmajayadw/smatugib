@@ -638,6 +638,7 @@ body {
 #school {
     padding: 100px 0;
     border-radius: 0 0 250px 250px;
+    overflow: hidden;
 }
 
 #school .left {

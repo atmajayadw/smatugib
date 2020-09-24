@@ -62,6 +62,11 @@
     <section id="jumbotron">
         <div class="container jumbo">
             <img src="../Assets/bg/berita_jumbo.png" alt="" class="img-fluid">
+            <a class="btn-scroll" href="#news">
+                <span>
+                    &#10095;
+                </span>
+            </a>
         </div>
     </section>
 
@@ -78,7 +83,7 @@
                     rutrum. Vestibulum non
                     nulla magna. Sed egestas
                     turpis ac ornare dapibus.</p>
-                <a href="" class="see-more">Lihat Selengkapnya!</a>
+                <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
             </div>
             <div class="news">
                 <img src="../Assets/img/thumbnail2.png" alt="">
@@ -90,7 +95,7 @@
                     rutrum. Vestibulum non
                     nulla magna. Sed egestas
                     turpis ac ornare dapibus.</p>
-                <a href="" class="see-more">Lihat Selengkapnya!</a>
+                <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
             </div>
             <div class="news">
                 <img src="../Assets/img/thumbnail3.png" alt="">
@@ -102,7 +107,7 @@
                     rutrum. Vestibulum non
                     nulla magna. Sed egestas
                     turpis ac ornare dapibus.</p>
-                <a href="" class="see-more">Lihat Selengkapnya!</a>
+                <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
             </div>
             <div class="news">
                 <img src="../Assets/img/thumbnail4.png" alt="">
@@ -114,7 +119,7 @@
                     rutrum. Vestibulum non
                     nulla magna. Sed egestas
                     turpis ac ornare dapibus.</p>
-                <a href="" class="see-more">Lihat Selengkapnya!</a>
+                <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
             </div>
             <div class="news">
                 <img src="../Assets/img/thumbnail3.png" alt="">
@@ -126,7 +131,7 @@
                     rutrum. Vestibulum non
                     nulla magna. Sed egestas
                     turpis ac ornare dapibus.</p>
-                <a href="" class="see-more">Lihat Selengkapnya!</a>
+                <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
             </div>
             <div class="news">
                 <img src="../Assets/img/thumbnail4.png" alt="">
@@ -138,7 +143,7 @@
                     rutrum. Vestibulum non
                     nulla magna. Sed egestas
                     turpis ac ornare dapibus.</p>
-                <a href="" class="see-more">Lihat Selengkapnya!</a>
+                <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
             </div>
             <div class="news">
                 <img src="../Assets/img/thumbnail1.png" alt="">
@@ -150,7 +155,7 @@
                     rutrum. Vestibulum non
                     nulla magna. Sed egestas
                     turpis ac ornare dapibus.</p>
-                <a href="" class="see-more">Lihat Selengkapnya!</a>
+                <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
             </div>
             <div class="news">
                 <img src="../Assets/img/thumbnail2.png" alt="">
@@ -162,7 +167,7 @@
                     rutrum. Vestibulum non
                     nulla magna. Sed egestas
                     turpis ac ornare dapibus.</p>
-                <a href="" class="see-more">Lihat Selengkapnya!</a>
+                <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
             </div>
         </div>
     </section>

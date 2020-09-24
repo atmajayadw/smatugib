@@ -74,7 +74,7 @@
         <h1>PENERIMAAN PESERTA DIDIK BARU</h1>
         <h1>(PPDB)</h1>
         <div class="container ppdb">
-            <div class="box info">
+            <div class="box info" href="#information">
                 <img src="../Assets/icon/bullets2.png" class="bullets one" alt="">
                 <img src="../Assets/icon/info.png" alt="">
                 <p>Informasi<br>Pendaftaran</p>

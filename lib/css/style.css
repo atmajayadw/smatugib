@@ -340,7 +340,7 @@ body {
     padding: 150px 0;
     background-image: linear-gradient(to bottom, white, #FBF9F6);
     border-radius: 0 0 250px 250px;
-    /* height: 700px; */
+    overflow: hidden;
 }
 
 

@@ -235,336 +235,76 @@ body {
 
 /* ---------------------- End ---------------------- */
 
-/* ---------------------- Jumbotron ---------------------- */
+/* ---------------------- ARTIKEL ---------------------- */
 
-#jumbotron {
-    margin-bottom: 100px;
+#article {
+    padding: 50px 0;
 }
 
-#jumbotron .jumbo {
-    background-color: #FBF8F6;
-    border-radius: 25px;
-    padding: 30px;
-    padding-bottom: 10px;
-    box-sizing: border-box;
-    height: 100%;
+#article .main {
+    position: relative;
+}
+
+#article .main .title {
+    color: rgb(46, 46, 46);
+}
+
+#article .main .photo {
+    width: 100%;
+}
+
+#article .main .caption {
+    font-size: 12px;
+    font-style: italic;
+    color: grey;
+}
+
+#article .main .content {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+#article .main .back-btn {
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+    bottom: -10px;
+}
+
+/* ---------------------- SIDE ---------------------- */
+
+#article .side .news {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
 }
 
-#jumbotron .jumbo img {
-    width: 100%;
-}
-
-#jumbotron .jumbo .btn-scroll {
-    background-color: #B9933B;
-    width: 34px;
-    height: 34px;
-    transform: rotate(90deg);
-    border-radius: 50px;
-    margin-top: 10px;
-    animation: blinkingText 1.2s infinite;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-#jumbotron .jumbo .btn-scroll span {
-    font-size: 22px;
+#article .side h5 {
     text-align: center;
-    margin: 12px;
-    color: whitesmoke;
-    text-decoration: none;
+    color: #464646;
 }
 
-@keyframes blinkingText {
-    0% {
-        opacity: 1;
-    }
-
-    49% {
-        opacity: 1;
-    }
-
-    60% {
-        opacity: 0;
-    }
-
-    99% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
+#article .side .thumbnail {
+    margin: 20px 0;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
 }
 
-/* ---------- RESPONSIVE BREAKPOINTS JUMBOTRON ---------- */
-
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-    #jumbotron .jumbo-right p:nth-child(1) {
-        font-size: 16px;
-    }
-
-    #jumbotron .jumbo-right p:nth-child(2) {
-        font-size: 18px;
-    }
-
-    #jumbotron .jumbo-right .explore-btn {
-        width: 150px;
-        height: 40px;
-        font-size: 18px;
-        text-align: center;
-    }
-
-    #jumbotron {
-        margin: 10px;
-    }
-
-    #jumbotron .jumbo .btn-scroll {
-        display: none;
-    }
-
+#article .side .thumbnail .thumbnail-image {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 20px;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-    #jumbotron .jumbo-right p:nth-child(1) {
-        font-size: 20px;
-    }
+#article .side .thumbnail .thumbnail-title {
+    font-size: 18px;
+    color: #464646;
+    /* text-align: center; */
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
-
-/* ---------------------- End Jumbotron---------------------- */
-
-#ppdb {
-    padding: 100px 0;
-    overflow: hidden;
+#article .side .thumbnail .see-more {
+    font-size: 14px;
 }
-
-#ppdb h1 {
-    text-align: center;
-    font-size: 36px;
-    color: #303030;
-    opacity: 0.6;
-    letter-spacing: 2px;
-    margin: 10px;
-}
-
-#ppdb .ppdb {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 50px;
-}
-
-#ppdb .ppdb .box {
-    width: 340px;
-    height: 340px;
-    background-color: #7F867B;
-    border-radius: 50px;
-    margin-top: 25px;
-    border: 3px solid #C7C7BB;
-    position: relative;
-    cursor: pointer;
-}
-
-#ppdb .ppdb .box img:hover,
-#ppdb .ppdb .box p:hover {
-    scale: 0.9;
-}
-
-#ppdb .ppdb .box.regist {
-    background-color: #C7C7BB;
-    border: 3px solid #7F867B;
-}
-
-#ppdb .ppdb .box img {
-    width: 75%;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-#ppdb .ppdb .box.regist img {
-    width: 70%;
-}
-
-#ppdb .ppdb .box p {
-    font-size: 24px;
-    color: white;
-    text-align: center;
-    margin-top: -20px;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-#ppdb .ppdb .box.regist p {
-    margin-top: 0px;
-}
-
-#ppdb .ppdb .box .bullets.one {
-    position: absolute;
-    top: -55px;
-    left: -90px;
-    z-index: -1;
-}
-
-#ppdb .ppdb .box .bullets.two {
-    position: absolute;
-    bottom: -58px;
-    right: -90px;
-    z-index: -1;
-}
-
-/* ---------- RESPONSIVE BREAKPOINTS ---------- */
-
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-    #ppdb h1 {
-        font-size: 24px;
-    }
-
-    #ppdb .ppdb .box {
-        width: 220px;
-        height: 220px;
-    }
-
-    #ppdb .ppdb .box p {
-        font-size: 18px;
-    }
-
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
-
-/* ---------------------- End  -----------------------*/
-
-/* ----------------------   -----------------------*/
-
-#information {
-    padding: 100px 0;
-}
-
-#information .accordion {
-    background-color: white;
-    border: rgb(228, 228, 228) 10px solid;
-    color: #707070;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    font-size: 30px;
-    transition: 0.4s;
-    border-radius: 25px;
-    font-weight: 600;
-    margin-top: 50px;
-}
-
-#information .accordion:hover {
-    background-color: #ccc;
-}
-
-#information .accordion.active {
-    background-color: #ccc;
-    color: whitesmoke;
-}
-
-#information .accordion:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-}
-
-#information .accordion.active:after {
-    content: "\2212";
-}
-
-#information .panel {
-    padding: 10px 18px;
-    margin-top: 10px;
-    background-color: white;
-    border: rgb(228, 228, 228) 10px solid;
-    border-radius: 25px;
-    letter-spacing: 0.1em;
-    overflow: hidden;
-    transition: all 0.7s;
-    box-sizing: border-box;
-    display: none;
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
-
-#information .panel.cost {
-    border: 0px solid white;
-}
-
-#information .internal,
-#information .external {
-    text-align: center;
-}
-
-#information .panel h3 {
-    color: #707070;
-    text-align: center;
-}
-
-#information .left,
-#information .right {
-    border: rgb(228, 228, 228) 5px solid;
-    border-radius: 25px;
-    padding: 50px;
-    box-sizing: border-box;
-}
-
-
-@-webkit-keyframes zoom {
-    from {
-        -webkit-transform: scale(0)
-    }
-
-    to {
-        -webkit-transform: scale(1)
-    }
-}
-
-@keyframes zoom {
-    from {
-        transform: scale(0)
-    }
-
-    to {
-        transform: scale(1)
-    }
-}
-
-
-/* ---------- RESPONSIVE BREAKPOINTS INFORMATION---------- */
-
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-    #information .accordion {
-        font-size: 20px;
-    }
-}
-
 
 /* ----------------------  Footer -----------------------*/
 
