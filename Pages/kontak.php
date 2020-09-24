@@ -63,6 +63,11 @@
     <section id="jumbotron">
         <div class="container jumbo">
             <img src="../Assets/bg/kontak_jumbo.png" alt="" class="img-fluid">
+            <a class="btn-scroll" href="#contact">
+                <span>
+                    &#10095;
+                </span>
+            </a>
         </div>
     </section>
 
