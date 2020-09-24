@@ -453,7 +453,113 @@ body {
 
 /* ----------------------   -----------------------*/
 
+#information {
+    padding: 100px 0;
+}
 
+#information .accordion {
+    background-color: white;
+    border: rgb(228, 228, 228) 10px solid;
+    color: #707070;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+    transition: 0.4s;
+    border-radius: 25px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+#information .accordion:hover {
+    background-color: #ccc;
+}
+
+#information .accordion.active {
+    background-color: #ccc;
+    color: whitesmoke;
+}
+
+#information .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+#information .accordion.active:after {
+    content: "\2212";
+}
+
+#information .panel {
+    padding: 10px 18px;
+    margin-top: 10px;
+    background-color: white;
+    border: rgb(228, 228, 228) 10px solid;
+    border-radius: 25px;
+    letter-spacing: 0.1em;
+    overflow: hidden;
+    transition: all 0.7s;
+    box-sizing: border-box;
+    display: none;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+#information .panel.cost {
+    border: 0px solid white;
+}
+
+#information .internal,
+#information .external {
+    text-align: center;
+}
+
+#information .panel h3 {
+    color: #707070;
+    text-align: center;
+}
+
+#information .left,
+#information .right {
+    border: rgb(228, 228, 228) 5px solid;
+    border-radius: 25px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+
+/* ---------- RESPONSIVE BREAKPOINTS INFORMATION---------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #information .accordion {
+        font-size: 20px;
+    }
+}
 
 
 /* ----------------------  Footer -----------------------*/

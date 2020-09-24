@@ -87,7 +87,73 @@
         </div>
     </section>
 
+    <section id="information">
+        <div class="container information">
+            <button class="accordion">SKEMA PENDAFTARAN</button>
+            <div class="panel">
+                <p>1. Pembelian Formulir<br>
+                    2. Tes Seleksi<br>
+                    3. Pengumuman Hasil Tes Seleksi<br>
+                    4. Pembayaran Biaya PPDB<br>
+                    5. Pendaftaran Ulang (Pemberkasan)<br></p>
+            </div>
+            <button class="btn accordion">PERSYARATAN</button>
+            <div class="panel">
+                <p>1. Biaya Formulir Pendaftaran dan Tes Seleksi Sebesar Rp 300.000<br>
+                    2. Tes Seleksi Penerimaan Peserta Didik Baru<br>
+                    3. Lulus Seleksi Penerimaan Peserta Didik Baru<br>
+                    4. Mengisi dan menyerahkan kembali formulir pendaftaran dengan melampirkan :<br></p>
+                <p style="padding-left: 30px;">- Foto terakhir ukuran 2 x 3 = 4 lembar dan 3 x 4 = 4 lembar<br>
+                    - Foto Copy Akte Kelahiran (Legalisir 1 Lembar)<br>
+                    - Foto Copy Kartu Keluarga<br>
+                    - Foto Copy Surat Tanda Kelulusan (2 Lembar diLegalisir)<br>
+                    - Foto Copy Ijazah SMP/MI (2 Lembar diLegalisir)<br>
+                    - Foto Copy SKHUN SMP/MI<br></p>
+            </div>
+            <button class="accordion">WAKTU & TEMPAT</button>
+            <div class="panel">
+                <p>Pengambilan nomor tes : 09 – 10 Juni 2020<br><br>
 
+                    Waktu : 08:00 – 14:00 WIB<br>
+                    Pelaksanaan Tes Seleksi : Kamis, 11 Juni 2020 (Pukul 08:00 – 12.15 WIB)<br><br>
+
+                    Materi tes : Matematika, Bahasa Indonesia, Bahasa Inggris dan IPA Terpadu.<br></p>
+            </div>
+            <button class="accordion">BIAYA PPDB</button>
+            <div class="panel cost">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-sm">
+                        <div class="left">
+                            <h3>DARI SMP TUGU IBU</h3><br>
+                            <h3>Rp 7.550.000 </h3><br><br>
+                            <p class="internal">Uang Pengembangan Pendidikan<br>
+                                Rp 5.600.000<br><br>
+
+                                Uang Paket Seragam <br>
+                                Rp 1.500.000<br><br>
+
+                                Uang SPP Bulan Juli<br>
+                                Rp 450.000<br></p>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="right">
+                            <h3>DARI SMP LUAR</h3><br>
+                            <h3>Rp 8.550.000 </h3><br><br>
+                            <p class="external">Uang Pengembangan Pendidikan<br>
+                                Rp 6.600.000<br><br>
+
+                                Uang Paket Seragam <br>
+                                Rp 1.500.000<br><br>
+
+                                Uang SPP Bulan Juli<br>
+                                Rp 450.000<br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
