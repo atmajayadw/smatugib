@@ -62,6 +62,11 @@
     <section id="jumbotron">
         <div class="container jumbo">
             <img src="../Assets/bg/ppdb_jumbo.png" alt="" class="img-fluid">
+            <a class="btn-scroll" href="#ppdb">
+                <span>
+                    &#10095;
+                </span>
+            </a>
         </div>
     </section>
 

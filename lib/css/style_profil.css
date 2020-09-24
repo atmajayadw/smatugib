@@ -558,6 +558,7 @@ body {
     height: 500px;
     background-image: linear-gradient(to bottom, #FBF9F6, white);
     border-radius: 250px 250px 0 0;
+    overflow: hidden;
 }
 
 #visimisi .visimisi .left,
@@ -636,7 +637,6 @@ body {
 
 #school {
     padding: 100px 0;
-    /* background-image: linear-gradient(to bottom, white, #FBF9F6); */
     border-radius: 0 0 250px 250px;
 }
 
@@ -654,8 +654,9 @@ body {
 
 #school .right {
     opacity: 0;
-    transform: translate(80px, 0);
+    transform: translate(50px, 0);
     transition: 0.5s;
+    overflow: hidden;
 }
 
 #school .right.show {
