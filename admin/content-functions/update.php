@@ -40,9 +40,9 @@ if (isset($_POST["submit"])) {
     <h2>Edit Konten</h2>
     <a href="../content.php">Kembali</a>
 
-    <form action="" method="POST">
+    <form action="" method="POST" enctype="multipart/form-data">
         <input type="hidden" name="id" value="<?= $content["id"]; ?>">
-
+        <input type="hidden" name="fotolama" value="<?= $content["foto"]; ?>">
         <ul>
             <li>
                 <label for="tanggal">TANGGAL : </label>
@@ -64,8 +64,9 @@ if (isset($_POST["submit"])) {
                 </textarea>
             </li>
             <li>
-                <label for="foto">FOTO : </label>
-                <input type="text" name="foto" id="foto" required value="<?= $content["foto"]; ?>">>
+                <label for="foto">FOTO : </label><br>
+                <img src="../db-img/<?= $content["foto"]; ?>" width="400px">
+                <input type="file" name="foto" id="foto">
             </li>
             <li>
                 <button type="submit" name="submit">Edit data!</button>
