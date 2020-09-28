@@ -69,3 +69,13 @@ function update($data)
 
     return mysqli_affected_rows($conn);
 }
+
+function search($keyword)
+{
+    $query = "SELECT * FROM content WHERE
+    tanggal LIKE '%$keyword%' OR
+    editor LIKE '%$keyword%' OR
+    judul LIKE '%$keyword%'
+    ";
+    return query($query);
+}
