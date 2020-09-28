@@ -41,3 +41,31 @@ function delete($id)
     mysqli_query($conn, "DELETE FROM content WHERE id = $id");
     return mysqli_affected_rows($conn);
 }
+
+function update($data)
+{
+    global $conn;
+
+    //ambil data dari tiap elemen form
+    $id = $data["id"];
+    $tanggal = htmlspecialchars($data["tanggal"]);
+    $judul = htmlspecialchars($data["judul"]);
+    $editor = htmlspecialchars($data["editor"]);
+    $foto = htmlspecialchars($data["foto"]);
+    $isi = htmlspecialchars($data["isi"]);
+
+    // query insert data
+    $query = "UPDATE content SET
+    tanggal = '$tanggal',
+    judul = '$judul',
+    editor = '$editor',
+    isi = '$isi',
+    foto = '$foto'
+    WHERE id = $id
+    ";
+
+
+    mysqli_query($conn, $query);
+
+    return mysqli_affected_rows($conn);
+}

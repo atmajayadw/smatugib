@@ -19,7 +19,7 @@ $data = query("SELECT * FROM content");
 
 <body>
     <h2>Content Management</h2>
-    <a href="content-functions/content-add.php"> Tambah Konten</a>
+    <a href="content-functions/add.php"> Tambah Konten</a>
 
     <table border="1" cellpadding="10" cellspacing="0">
         <tr>
@@ -40,8 +40,8 @@ $data = query("SELECT * FROM content");
             <td><?= $row["editor"]; ?></td>
             <td><img src="db-img/<?= $row["foto"]; ?>" alt="" width="100px"></td>
             <td>
-                <a href="">ubah</a> |
-                <a href="content-functions/content-delete.php?id=<?= $row["id"]; ?>"
+                <a href="content-functions/update.php?id=<?= $row["id"]; ?>">edit</a> |
+                <a href="content-functions/delete.php?id=<?= $row["id"]; ?>"
                     onclick="return confirm('Yakin menghapus data?');">hapus</a>
             </td>
         </tr>
