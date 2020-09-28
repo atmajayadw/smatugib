@@ -1,6 +1,6 @@
 <?php
 
-require 'functions/functions.php';
+require 'content-functions/functions.php';
 
 // ambil data dari tabel / query data
 $data = query("SELECT * FROM content");
@@ -19,6 +19,8 @@ $data = query("SELECT * FROM content");
 
 <body>
     <h2>Content Management</h2>
+    <a href="content-functions/content-add.php"> Tambah Konten</a>
+
     <table border="1" cellpadding="10" cellspacing="0">
         <tr>
             <td>No</td>
@@ -39,7 +41,8 @@ $data = query("SELECT * FROM content");
             <td><img src="db-img/<?= $row["foto"]; ?>" alt="" width="100px"></td>
             <td>
                 <a href="">ubah</a> |
-                <a href="">hapus</a>
+                <a href="content-functions/content-delete.php?id=<?= $row["id"]; ?>"
+                    onclick="return confirm('Yakin menghapus data?');">hapus</a>
             </td>
         </tr>
         <?php $i++; ?>
