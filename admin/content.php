@@ -1,5 +1,11 @@
 <?php
 
+session_start();
+if (!isset($_SESSION["login"])) {
+    header("Location: login.php");
+    exit;
+}
+
 require 'content-functions/functions.php';
 
 // ambil data dari tabel / query data
