@@ -1,4 +1,6 @@
 <?php
+usleep(500000);
+
 require '../content-functions/functions.php';
 
 //ajax live search

@@ -24,6 +24,8 @@ if (isset($_POST["search"])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+
     <title>CONTENT MANAGEMENT - SMA TUGU IBU</title>
 </head>
 
@@ -35,7 +37,8 @@ if (isset($_POST["search"])) {
     <form action="" method="post">
         <input type="text" name="keyword" size="40" autofocus placeholder="masukkan keyword pencarian"
             autocomplete="off" id="keyword">
-        <button type="submit" name="search" id="btn-search">cari</button>
+        <!-- <button type="submit" name="search" id="btn-search">cari</button> -->
+        <img src="style/img/loader.gif" class="loader">
     </form>
     <br>
     <div class="container" id="table">
@@ -69,7 +72,7 @@ if (isset($_POST["search"])) {
         </table>
     </div>
 
-
+    <script src=" ../lib/bootstrap/js/jquery-3.5.1.min.js"> </script>
     <script src="content-functions/script.js"></script>
 
 </body>
