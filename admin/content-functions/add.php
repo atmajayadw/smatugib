@@ -33,6 +33,12 @@ if (isset($_POST["submit"])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../../lib/nicedit/nicEdit.js"></script>
+    <script type="text/javascript">
+    bkLib.onDomLoaded(function() {
+        nicEditors.allTextAreas()
+    });
+    </script>
     <title>Tambah Konten - SMA TUGU IBU</title>
 </head>
 
@@ -56,7 +62,8 @@ if (isset($_POST["submit"])) {
             </li>
             <li>
                 <label for="isi">ISI : </label>
-                <textarea name="isi" id="isi" rows="20" cols="100" required></textarea>
+                <textarea name="isi" id="isi" rows="20" cols="100" required>
+                </textarea>
             </li>
             <li>
                 <label for="foto">FOTO : </label>
@@ -67,7 +74,6 @@ if (isset($_POST["submit"])) {
             </li>
         </ul>
     </form>
-
 </body>
 
 </html>

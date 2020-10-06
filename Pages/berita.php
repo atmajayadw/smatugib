@@ -1,3 +1,11 @@
+<?php
+
+require '../lib/functions/functions.php';
+
+// ambil data dari tabel / query data
+$data = query("SELECT * FROM content ORDER BY id DESC LIMIT 0,4");
+
+?>
 <!doctype html>
 <html lang="en">
 
@@ -73,102 +81,14 @@
     <section id="news">
         <h1>Berita Terkini</h1>
         <div class="container news_">
+            <?php foreach ($data as $row) : ?>
             <div class="news">
-                <img src="../Assets/img/thumbnail1.png" alt="">
-                <p class="title">Lorem Ipsum</p>
-                <p class="text">Lorem ipsum dolor sit
-                    amet, consectetur
-                    adipiscing elit. Etiam
-                    dapibus non justo sed
-                    rutrum. Vestibulum non
-                    nulla magna. Sed egestas
-                    turpis ac ornare dapibus.</p>
-                <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
+                <img src="../admin/db-img/<?= $row["foto"]; ?>" alt="">
+                <p class="title"><?= $row["judul"]; ?></p>
+                <p class="date"><?= $row["tanggal"]; ?></p>
+                <a href="artikel.php?id=<?= $row["id"]; ?>" class="see-more">Lihat Selengkapnya!</a>
             </div>
-            <div class="news">
-                <img src="../Assets/img/thumbnail2.png" alt="">
-                <p class="title">Lorem Ipsum</p>
-                <p class="text">Lorem ipsum dolor sit
-                    amet, consectetur
-                    adipiscing elit. Etiam
-                    dapibus non justo sed
-                    rutrum. Vestibulum non
-                    nulla magna. Sed egestas
-                    turpis ac ornare dapibus.</p>
-                <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
-            </div>
-            <div class="news">
-                <img src="../Assets/img/thumbnail3.png" alt="">
-                <p class="title">Lorem Ipsum</p>
-                <p class="text">Lorem ipsum dolor sit
-                    amet, consectetur
-                    adipiscing elit. Etiam
-                    dapibus non justo sed
-                    rutrum. Vestibulum non
-                    nulla magna. Sed egestas
-                    turpis ac ornare dapibus.</p>
-                <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
-            </div>
-            <div class="news">
-                <img src="../Assets/img/thumbnail4.png" alt="">
-                <p class="title">Lorem Ipsum</p>
-                <p class="text">Lorem ipsum dolor sit
-                    amet, consectetur
-                    adipiscing elit. Etiam
-                    dapibus non justo sed
-                    rutrum. Vestibulum non
-                    nulla magna. Sed egestas
-                    turpis ac ornare dapibus.</p>
-                <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
-            </div>
-            <div class="news">
-                <img src="../Assets/img/thumbnail3.png" alt="">
-                <p class="title">Lorem Ipsum</p>
-                <p class="text">Lorem ipsum dolor sit
-                    amet, consectetur
-                    adipiscing elit. Etiam
-                    dapibus non justo sed
-                    rutrum. Vestibulum non
-                    nulla magna. Sed egestas
-                    turpis ac ornare dapibus.</p>
-                <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
-            </div>
-            <div class="news">
-                <img src="../Assets/img/thumbnail4.png" alt="">
-                <p class="title">Lorem Ipsum</p>
-                <p class="text">Lorem ipsum dolor sit
-                    amet, consectetur
-                    adipiscing elit. Etiam
-                    dapibus non justo sed
-                    rutrum. Vestibulum non
-                    nulla magna. Sed egestas
-                    turpis ac ornare dapibus.</p>
-                <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
-            </div>
-            <div class="news">
-                <img src="../Assets/img/thumbnail1.png" alt="">
-                <p class="title">Lorem Ipsum</p>
-                <p class="text">Lorem ipsum dolor sit
-                    amet, consectetur
-                    adipiscing elit. Etiam
-                    dapibus non justo sed
-                    rutrum. Vestibulum non
-                    nulla magna. Sed egestas
-                    turpis ac ornare dapibus.</p>
-                <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
-            </div>
-            <div class="news">
-                <img src="../Assets/img/thumbnail2.png" alt="">
-                <p class="title">Lorem Ipsum</p>
-                <p class="text">Lorem ipsum dolor sit
-                    amet, consectetur
-                    adipiscing elit. Etiam
-                    dapibus non justo sed
-                    rutrum. Vestibulum non
-                    nulla magna. Sed egestas
-                    turpis ac ornare dapibus.</p>
-                <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
-            </div>
+            <?php endforeach; ?>
         </div>
     </section>
 

@@ -1,3 +1,14 @@
+<?php
+
+require '../lib/functions/functions.php';
+
+$id = $_GET["id"];
+
+//query berdasarkan id
+$content = query("SELECT * FROM content WHERE id = $id")[0];
+
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -63,43 +74,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 main">
-                    <h3 class="title">Lorem Ipsum</h3>
+                    <div style="display: none;">
+                        <?= $content["id"]; ?>
+                    </div>
+                    <h3 class="title"><?= $content["judul"]; ?></h3>
                     <hr>
-                    <img src="../Assets/img/slideshow/5.jpg" class="photo">
-                    <p class="caption">photo by unsplash</p>
-                    <p class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda doloribus
-                        optio id suscipit
-                        atque.
-                        Culpa, voluptates dolorem! Repellendus minima facilis eaque dolorum provident officiis sequi,
-                        blanditiis
-                        adipisci velit ratione praesentium ipsum doloribus similique corporis, ipsam reiciendis dolores
-                        vel
-                        beatae, maiores reprehenderit ab aliquid distinctio! At quae impedit, cupiditate saepe ducimus
-                        maiores
-                        repudiandae, et eos doloribus aperiam recusandae. Rem, nisi! Fugit maiores placeat dolorum nobis
-                        quibusdam consequuntur alias, excepturi praesentium ipsam quos!
-                        <br>
-                        Alias quibusdam sint provident
-                        laborum
-                        saepe similique, eum quasi nulla excepturi dolor dolore sed laudantium ducimus illo placeat
-                        nesciunt
-                        consequuntur corrupti beatae eius vitae explicabo vel ut! Sequi ea praesentium amet doloremque
-                        adipisci
-                        ut totam doloribus minus perspiciatis est accusamus ad veniam nostrum quis, animi dolor impedit
-                        reiciendis pariatur optio repellat labore quidem! Accusantium ratione doloremque pariatur vitae
-                        tenetur
-                        itaque error quisquam non animi aliquid, deleniti quas rerum doloribus laborum praesentium
-                        magnam ad
-                        mollitia necessitatibus totam. Odio consequatur excepturi ullam! A, repudiandae error.
-                        <br>Cum molestias
-                        saepe necessitatibus ipsum ea doloremque adipisci nulla nostrum facere molestiae. Reiciendis a
-                        officia
-                        tempora facilis illo dolor in fugiat itaque, sed excepturi dignissimos veniam, reprehenderit
-                        deleniti.
-                        Itaque esse ipsa, unde eligendi nobis iste eveniet totam reprehenderit error explicabo ducimus
-                        maxime
-                        veniam repudiandae rem commodi.
-                    </p>
+                    <img src="../admin/db-img/<?= $content["foto"]; ?>" class="photo">
+                    <p class="caption">Editor : <?= $content["editor"]; ?></p>
+                    <p class="content"><?= $content["isi"]; ?></p>
                     <a href="/smatugib/pages/berita.php" class="back-btn">Kembali</a>
                 </div>
                 <div class="col-md"></div>

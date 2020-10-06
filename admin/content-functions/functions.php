@@ -24,7 +24,7 @@ function add($data)
     $tanggal = htmlspecialchars($data["tanggal"]);
     $judul = htmlspecialchars($data["judul"]);
     $editor = htmlspecialchars($data["editor"]);
-    $isi = htmlspecialchars($data["isi"]);
+    $isi = $data["isi"];
 
     // upload gambar
     $foto = upload();
@@ -59,7 +59,7 @@ function update($data)
     $tanggal = htmlspecialchars($data["tanggal"]);
     $judul = htmlspecialchars($data["judul"]);
     $editor = htmlspecialchars($data["editor"]);
-    $isi = htmlspecialchars($data["isi"]);
+    $isi = $data["isi"];
     $fotolama = htmlspecialchars($data["fotolama"]);
 
     //cek apakah user pilih gambar baru atau tidak
