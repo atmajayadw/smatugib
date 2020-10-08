@@ -3,7 +3,7 @@
 $conn = mysqli_connect("localhost", "root", "", "smatugib");
 
 // ambil data dari tabel mahasiswa / query data
-$result = mysqli_query($conn, "SELECT * FROM content");
+// $result = mysqli_query($conn, "SELECT * FROM content");
 
 function query($query)
 {

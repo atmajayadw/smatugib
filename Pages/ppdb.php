@@ -33,10 +33,10 @@
                 <div class="links">
                     <ul>
                         <li><a class="link" href="/smatugib">Beranda</a></li>
-                        <li><a class="link" href="/smatugib/pages/profil.php">Profil</a></li>
-                        <li><a class="link active" href="/smatugib/pages/ppdb.php">PPDB</a></li>
-                        <li><a class="link" href="/smatugib/pages/berita.php">Berita</a></li>
-                        <li><a class="link" href="/smatugib/pages/kontak.php">Kontak</a></li>
+                        <li><a class="link" href="/smatugib/pages/profil">Profil</a></li>
+                        <li><a class="link active" href="/smatugib/pages/ppdb">PPDB</a></li>
+                        <li><a class="link" href="/smatugib/pages/berita">Berita</a></li>
+                        <li><a class="link" href="/smatugib/pages/kontak">Kontak</a></li>
                     </ul>
                 </div>
                 <div class="container sidebar">
@@ -48,10 +48,10 @@
                     <div class="links">
                         <ul>
                             <li><a class="link" href="/smatugib">Beranda</a></li>
-                            <li><a class="link" href="/smatugib/pages/profil.php">Profil</a></li>
-                            <li><a class="link active" href="/smatugib/pages/ppdb.php">PPDB</a></li>
-                            <li><a class="link" href="/smatugib/pages/berita.php">Berita</a></li>
-                            <li><a class="link" href="/smatugib/pages/kontak.php">Kontak</a></li>
+                            <li><a class="link" href="/smatugib/pages/profil">Profil</a></li>
+                            <li><a class="link active" href="/smatugib/pages/ppdb">PPDB</a></li>
+                            <li><a class="link" href="/smatugib/pages/berita">Berita</a></li>
+                            <li><a class="link" href="/smatugib/pages/kontak">Kontak</a></li>
                         </ul>
                     </div>
                 </div>

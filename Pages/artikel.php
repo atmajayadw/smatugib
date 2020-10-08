@@ -2,11 +2,11 @@
 
 require '../lib/functions/functions.php';
 
-$id = $_GET["id"];
+$judul = $_GET["a"];
+$judul = str_replace('-', ' ', $judul);
 
 //query berdasarkan id
-$content = query("SELECT * FROM content WHERE id = $id")[0];
-
+$content = query("SELECT * FROM content WHERE judul = '$judul'")[0];
 ?>
 
 <!doctype html>
@@ -44,10 +44,10 @@ $content = query("SELECT * FROM content WHERE id = $id")[0];
                 <div class="links">
                     <ul>
                         <li><a class="link" href="/smatugib">Beranda</a></li>
-                        <li><a class="link" href="/smatugib/pages/profil.php">Profil</a></li>
-                        <li><a class="link" href="/smatugib/pages/ppdb.php">PPDB</a></li>
-                        <li><a class="link active" href="/smatugib/pages/berita.php">Berita</a></li>
-                        <li><a class="link" href="/smatugib/pages/kontak.php">Kontak</a></li>
+                        <li><a class="link" href="/smatugib/pages/profil">Profil</a></li>
+                        <li><a class="link" href="/smatugib/pages/ppdb">PPDB</a></li>
+                        <li><a class="link active" href="/smatugib/pages/berita">Berita</a></li>
+                        <li><a class="link" href="/smatugib/pages/kontak">Kontak</a></li>
                     </ul>
                 </div>
                 <div class="container sidebar">
@@ -59,10 +59,10 @@ $content = query("SELECT * FROM content WHERE id = $id")[0];
                     <div class="links">
                         <ul>
                             <li><a class="link" href="/smatugib">Beranda</a></li>
-                            <li><a class="link" href="/smatugib/pages/profil.php">Profil</a></li>
-                            <li><a class="link" href="/smatugib/pages/ppdb.php">PPDB</a></li>
-                            <li><a class="link active" href="/smatugib/pages/berita.php">Berita</a></li>
-                            <li><a class="link" href="/smatugib/pages/kontak.php">Kontak</a></li>
+                            <li><a class="link" href="/smatugib/pages/profil">Profil</a></li>
+                            <li><a class="link" href="/smatugib/pages/ppdb">PPDB</a></li>
+                            <li><a class="link active" href="/smatugib/pages/berita">Berita</a></li>
+                            <li><a class="link" href="/smatugib/pages/kontak">Kontak</a></li>
                         </ul>
                     </div>
                 </div>

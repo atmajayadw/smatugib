@@ -41,10 +41,10 @@ $data = query("SELECT * FROM content ORDER BY id DESC LIMIT 0,4");
                 <div class="links">
                     <ul>
                         <li><a class="link" href="/smatugib">Beranda</a></li>
-                        <li><a class="link" href="/smatugib/pages/profil.php">Profil</a></li>
-                        <li><a class="link" href="/smatugib/pages/ppdb.php">PPDB</a></li>
-                        <li><a class="link active" href="/smatugib/pages/berita.php">Berita</a></li>
-                        <li><a class="link" href="/smatugib/pages/kontak.php">Kontak</a></li>
+                        <li><a class="link" href="/smatugib/pages/profil">Profil</a></li>
+                        <li><a class="link" href="/smatugib/pages/ppdb">PPDB</a></li>
+                        <li><a class="link active" href="/smatugib/pages/berita">Berita</a></li>
+                        <li><a class="link" href="/smatugib/pages/kontak">Kontak</a></li>
                     </ul>
                 </div>
                 <div class="container sidebar">
@@ -56,10 +56,10 @@ $data = query("SELECT * FROM content ORDER BY id DESC LIMIT 0,4");
                     <div class="links">
                         <ul>
                             <li><a class="link" href="/smatugib">Beranda</a></li>
-                            <li><a class="link" href="/smatugib/pages/profil.php">Profil</a></li>
-                            <li><a class="link" href="/smatugib/pages/ppdb.php">PPDB</a></li>
-                            <li><a class="link active" href="/smatugib/pages/berita.php">Berita</a></li>
-                            <li><a class="link" href="/smatugib/pages/kontak.php">Kontak</a></li>
+                            <li><a class="link" href="/smatugib/pages/profil">Profil</a></li>
+                            <li><a class="link" href="/smatugib/pages/ppdb">PPDB</a></li>
+                            <li><a class="link active" href="/smatugib/pages/berita">Berita</a></li>
+                            <li><a class="link" href="/smatugib/pages/kontak">Kontak</a></li>
                         </ul>
                     </div>
                 </div>
@@ -86,7 +86,8 @@ $data = query("SELECT * FROM content ORDER BY id DESC LIMIT 0,4");
                 <img src="../admin/db-img/<?= $row["foto"]; ?>" alt="">
                 <p class="title"><?= $row["judul"]; ?></p>
                 <p class="date"><?= $row["tanggal"]; ?></p>
-                <a href="artikel.php?id=<?= $row["id"]; ?>" class="see-more">Lihat Selengkapnya!</a>
+                <a href="artikel?a=<?= str_replace(' ', '-', $row["judul"]); ?>" class="see-more">Lihat
+                    Selengkapnya!</a>
             </div>
             <?php endforeach; ?>
         </div>
