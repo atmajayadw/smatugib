@@ -1,0 +1,175 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#topbar {
+    width: 100%;
+    height: 50px;
+    background-color: #7F867B;
+    z-index: 1;
+}
+
+#topbar .topbar h4 {
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    font-weight: 300;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    left: 5%;
+    top: 15px;
+    z-index: 3;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 4px;
+    background-color: white;
+    border-radius: 36px;
+}
+
+.hamburger .line1 {
+    transform-origin: 0 0;
+}
+
+.hamburger .line3 {
+    transform-origin: 0 100%;
+}
+
+.hamburger span.show1 {
+    transform: rotate(45deg);
+    background-color: #7F867B;
+
+}
+
+.hamburger span.show3 {
+    transform: rotate(-45deg) translate(0, 0);
+    background-color: #7F867B;
+}
+
+.hamburger span.show2 {
+    opacity: 0;
+}
+
+#main .main .menu {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main .main .search .searchbar {
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+#main .main .search .loader {
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+    right: 0;
+    display: none;
+}
+
+#main .main .table {
+    overflow-x: auto;
+}
+
+#main .main .table table {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+/* ---------------------- End  -----------------------*/
+
+#sidebar .sidebar {
+    visibility: hidden;
+    width: 0px;
+    height: 100vmax;
+    background-color: #FBF9F6;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+#sidebar .sidebar.active {
+    visibility: visible;
+    width: 320px;
+}
+
+#sidebar .sidebar .admin {
+    text-align: center;
+    font-size: 32px;
+}
+
+#sidebar .sidebar .logout {
+    text-align: center;
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+#sidebar .sidebar ul {
+    list-style: none;
+}
+
+#sidebar .sidebar ul li {
+    margin: 30px 0;
+}
+
+/* ---------------------- RESPONSIVE BREAKPOINTS  -----------------------*/
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #main .main .menu .add {
+        margin-right: 10px;
+    }
+
+    #main .main .menu .searchbar {
+        margin-top: 10px;
+    }
+
+    #topbar .topbar h4 {
+        text-align: right;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #main {
+        margin-left: 320px;
+    }
+
+    #sidebar .sidebar {
+        visibility: visible;
+        width: 320px;
+    }
+
+
+    .hamburger {
+        display: none;
+    }
+}
+
+/* ---------------------- End  -----------------------*/

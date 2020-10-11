@@ -1,25 +1,4 @@
-// let keyword = document.getElementById('keyword');
-// let search = document.getElementById('btn-search');
-// let container = document.getElementById('table');
-
-// keyword.addEventListener('keyup', function () {
-//     //buat object ajax
-//     let xhr = new XMLHttpRequest();
-
-//     //cek kesiapan ajax
-//     xhr.onreadystatechange = function () {
-//         if (xhr.readyState == 4 && xhr.status == 200) {
-//             container.innerHTML = xhr.responseText;
-//         }
-//     }
-
-//     //eksekusi ajax
-//     xhr.open('GET', '../admin/ajax/live-search.php?keyword=' + keyword.value, true);
-//     xhr.send();
-
-// });
-
-
+// Live Search
 $(document).ready(function () {
 
     $('#keyword').on('keyup', function () {
@@ -35,4 +14,21 @@ $(document).ready(function () {
 
     });
 
+});
+
+// Hamburger menu
+const hamburger = document.querySelector('.hamburger');
+const span = document.querySelectorAll('.hamburger span');
+const sidebar = document.querySelector('.sidebar');
+
+hamburger.addEventListener('click', function () {
+    sidebar.classList.toggle('active');
+    span[0].classList.toggle('show1');
+    span[1].classList.toggle('show2');
+    span[2].classList.toggle('show3');
+    if (sidebar.classList.contains('active')) {
+        document.body.style.overflow = "hidden";
+    } else {
+        document.body.style.overflow = "auto";
+    }
 });
