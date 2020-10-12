@@ -53,14 +53,17 @@ if (isset($_POST["search"])) {
 
     <section id="sidebar">
         <div class="container sidebar">
-            <p class="admin">Admin</p>
-            <p class="logout">
-                <a href="logout.php">Logout</a>
-            </p>
+            <div class="head">
+                <img src="../Assets/icon/no-picture.png" alt="admin" width="100px">
+                <p class="admin"><?= $_SESSION["username"] ?></p>
+                <p class="logout">
+                    <a href="logout.php">Logout</a>
+                </p>
+            </div>
             <hr>
             <ul>
                 <li><a href="index.php">Dashboard</a></li>
-                <li><a href="content.php">Content Management</a></li>
+                <li><a href="content.php" class="active">Content Management</a></li>
                 <li><a href="databases.php">Databases Management</a></li>
             </ul>
         </div>
@@ -70,7 +73,7 @@ if (isset($_POST["search"])) {
         <div class="container main">
             <div class="container menu">
                 <div class="add">
-                    <a href="content-functions/add.php"><span>Tambah Konten</span></a>
+                    <a href="content-functions/add.php"><span class="btn btn-success">Tambah Konten</span></a>
                 </div>
                 <div class="search">
                     <form action="" method="post">
@@ -101,9 +104,14 @@ if (isset($_POST["search"])) {
                         <td><?= $row["editor"]; ?></td>
                         <td><img src="db-img/<?= $row["foto"]; ?>" alt="" width="100px"></td>
                         <td>
-                            <a href="content-functions/update.php?id=<?= $row["id"]; ?>">edit</a> |
+                            <a href="content-functions/update.php?id=<?= $row["id"]; ?>">
+                                <span class="btn btn-warning btn-edit">Edit</span>
+                            </a>
+
                             <a href="content-functions/delete.php?id=<?= $row["id"]; ?>"
-                                onclick="return confirm('Yakin menghapus data?');">hapus</a>
+                                onclick="return confirm('Yakin menghapus data?');">
+                                <span class="btn btn-danger btn-delete">Hapus</span>
+                            </a>
                         </td>
                     </tr>
                     <?php $i++; ?>
@@ -113,8 +121,6 @@ if (isset($_POST["search"])) {
             </div>
         </div>
     </section>
-
-
 
     <script src=" ../lib/bootstrap/js/jquery-3.5.1.min.js"> </script>
     <script src="content-functions/script.js"></script>

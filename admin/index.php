@@ -30,13 +30,16 @@ if (!isset($_SESSION["login"])) {
 
     <section id="sidebar">
         <div class="container sidebar">
-            <p class="admin">Admin</p>
-            <p class="logout">
-                <a href="logout.php">Logout</a>
-            </p>
+            <div class="head">
+                <img src="../Assets/icon/no-picture.png" alt="admin" width="100px">
+                <p class="admin"><?= $_SESSION["username"] ?></p>
+                <p class="logout">
+                    <a href="logout.php">Logout</a>
+                </p>
+            </div>
             <hr>
             <ul>
-                <li><a href="index.php">Dashboard</a></li>
+                <li><a href="index.php" class="active">Dashboard</a></li>
                 <li><a href="content.php">Content Management</a></li>
                 <li><a href="databases.php">Databases Management</a></li>
             </ul>
@@ -55,7 +58,7 @@ if (!isset($_SESSION["login"])) {
     </section>
 
     <section id="main">
-        <h1>Welcome Back, Admin!</h1>
+        <h3>Welcome Back, <?= $_SESSION["username"] ?>!</h3>
     </section>
 
     <script src=" ../lib/bootstrap/js/jquery-3.5.1.min.js"> </script>

@@ -67,20 +67,22 @@ if (isset($_POST["submit"])) {
 
     <section id="sidebar">
         <div class="container sidebar">
-            <p class="admin">Admin</p>
-            <p class="logout">
-                <a href="../logout.php">Logout</a>
-            </p>
+            <div class="head">
+                <img src="../../Assets/icon/no-picture.png" alt="admin" width="100px">
+                <p class="admin"><?= $_SESSION["username"] ?></p>
+                <p class="logout">
+                    <a href="../logout.php">Logout</a>
+                </p>
+            </div>
             <hr>
             <ul>
                 <li><a href="../index.php">Dashboard</a></li>
-                <li><a href="../content.php">Content Management</a></li>
+                <li><a href="../content.php" class="active">Content Management</a></li>
                 <li><a href="../databases.php">Databases Management</a></li>
             </ul>
         </div>
     </section>
 
-    <!-- <a href="../content.php">Kembali</a> -->
     <section id="main">
         <div class="container main">
             <div class="form-box">
@@ -108,15 +110,13 @@ if (isset($_POST["submit"])) {
                             <input type="file" name="foto" id="foto" required>
                         </li>
                         <li>
-                            <button type="submit" name="submit" class="btn btn-success">Tambah data!</button>
+                            <button type="submit" name="submit" class="btn btn-success">Tambah Konten!</button>
                             <a href="../content.php" class="btn btn-primary">Kembali</a>
                         </li>
                     </ul>
                 </form>
             </div>
-
         </div>
-
     </section>
 
     <script src=" ../../lib/bootstrap/js/jquery-3.5.1.min.js"> </script>

@@ -368,12 +368,13 @@ body {
 }
 
 #news .news_ .news {
-    /* height: 400px; */
+    height: 350px;
     width: 250px;
     border-radius: 25px;
     background-color: white;
     margin-top: 25px;
     padding: 10px;
+    position: relative;
 }
 
 #news .news_ .news img {
@@ -386,25 +387,42 @@ body {
 #news .news_ .news .date {
     font-size: 12px;
     color: #3E4C40;
-    margin-top: -5px;
 }
 
 #news .news_ .news .title {
     font-size: 20px;
     color: #3E4C40;
-    margin-top: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#news .news_ .news .title:hover {
+    color: rgb(160, 160, 160);
 }
 
 #news .news_ .news .text {
     font-size: 14px;
     color: #3E4C40;
     font-weight: 300;
-    margin-top: -10px;
 }
 
 #news .news_ .news .see-more {
     font-weight: 300;
     font-size: 12px;
+    text-decoration: none;
+    color: black;
+    margin-left: 60px;
+}
+
+#news .news_ .news .see-more:hover {
+    color: grey;
+}
+
+#news .news_ .news .news-footer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
 }
 
 /* ---------- RESPONSIVE BREAKPOINTS ---------- */

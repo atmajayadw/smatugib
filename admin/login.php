@@ -20,6 +20,7 @@ if (isset($_POST["login"])) {
         $row = mysqli_fetch_assoc($result);
         if (password_verify($password, $row["password"])) {
             $_SESSION["login"] = true;
+            $_SESSION["username"] = $username;
             header("Location: index.php");
             exit;
         }

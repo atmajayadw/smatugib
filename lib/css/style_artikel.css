@@ -287,23 +287,31 @@ body {
     margin: 20px 0;
     border: 1px solid whitesmoke;
     border-radius: 15px;
+    padding: 3px;
 }
 
 #article .side .thumbnail .thumbnail-image {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     float: left;
     margin-right: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 #article .side .thumbnail .thumbnail-title {
-    font-size: 18px;
+    font-size: 14px;
     color: #464646;
-    /* text-align: center; */
 }
 
 #article .side .thumbnail .see-more {
-    font-size: 14px;
+    font-weight: 300;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin-right: 10px;
 }
 
 /* ----------------------  Footer -----------------------*/

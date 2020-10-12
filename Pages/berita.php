@@ -84,10 +84,14 @@ $data = query("SELECT * FROM content ORDER BY id DESC LIMIT 0,4");
             <?php foreach ($data as $row) : ?>
             <div class="news">
                 <img src="../admin/db-img/<?= $row["foto"]; ?>" alt="">
-                <p class="title"><?= $row["judul"]; ?></p>
-                <p class="date"><?= $row["tanggal"]; ?></p>
-                <a href="artikel?a=<?= str_replace(' ', '-', $row["judul"]); ?>" class="see-more">Lihat
-                    Selengkapnya!</a>
+                <a href="artikel?a=<?= str_replace(' ', '-', $row["judul"]); ?>" class="title">
+                    <p><?= $row["judul"]; ?></p>
+                </a>
+                <div class="news-footer">
+                    <p class="date"><?= $row["tanggal"]; ?></p>
+                    <a href="artikel?a=<?= str_replace(' ', '-', $row["judul"]); ?>" class="see-more">Lihat
+                        Selengkapnya!</a>
+                </div>
             </div>
             <?php endforeach; ?>
         </div>

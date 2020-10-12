@@ -7,6 +7,9 @@ $judul = str_replace('-', ' ', $judul);
 
 //query berdasarkan id
 $content = query("SELECT * FROM content WHERE judul = '$judul'")[0];
+
+$side_content = query("SELECT * FROM content ORDER BY id DESC LIMIT 0,4");
+
 ?>
 
 <!doctype html>
@@ -89,12 +92,17 @@ $content = query("SELECT * FROM content WHERE judul = '$judul'")[0];
                     <h5>Artikel Terbaru</h5>
                     <hr>
                     <div class="news">
+                        <?php foreach ($side_content as $row) : ?>
                         <div class="thumbnail">
-                            <img src="../Assets/img/thumbnail3.png" alt="" class="thumbnail-image">
-                            <p class="thumbnail-title">Lorem Ipsum</p>
-                            <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
+                            <img src="../admin/db-img/<?= $row["foto"]; ?>" alt="" class="thumbnail-image">
+                            <p class="thumbnail-title"><?= $row["judul"]; ?></p>
+                            <a href="artikel?a=<?= str_replace(' ', '-', $row["judul"]); ?>"><span
+                                    class="see-more">Lihat
+                                    Selengkapnya!</span> </a>
                         </div>
-                        <div class="thumbnail">
+                        <?php endforeach; ?>
+
+                        <!-- <div class="thumbnail">
                             <img src="../Assets/img/thumbnail2.png" alt="" class="thumbnail-image">
                             <p class="thumbnail-title">Lorem Ipsum</p>
                             <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
@@ -113,7 +121,7 @@ $content = query("SELECT * FROM content WHERE judul = '$judul'")[0];
                             <img src="../Assets/img/thumbnail2.png" alt="" class="thumbnail-image">
                             <p class="thumbnail-title">Lorem Ipsum</p>
                             <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
