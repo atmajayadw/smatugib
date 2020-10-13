@@ -2,7 +2,6 @@
 
 require '../lib/functions/functions.php';
 
-// ambil data dari tabel / query data
 $data = query("SELECT * FROM content ORDER BY id DESC LIMIT 0,4");
 
 ?>

@@ -155,12 +155,6 @@
         </div>
     </section>
 
-
-
-
-
-
-
     <section id="footer">
         <div class="container footer">
             <div class="row">

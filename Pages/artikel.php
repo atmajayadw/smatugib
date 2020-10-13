@@ -5,7 +5,6 @@ require '../lib/functions/functions.php';
 $judul = $_GET["a"];
 $judul = str_replace('-', ' ', $judul);
 
-//query berdasarkan id
 $content = query("SELECT * FROM content WHERE judul = '$judul'")[0];
 
 $side_content = query("SELECT * FROM content ORDER BY id DESC LIMIT 0,4");
@@ -101,33 +100,12 @@ $side_content = query("SELECT * FROM content ORDER BY id DESC LIMIT 0,4");
                                     Selengkapnya!</span> </a>
                         </div>
                         <?php endforeach; ?>
-
-                        <!-- <div class="thumbnail">
-                            <img src="../Assets/img/thumbnail2.png" alt="" class="thumbnail-image">
-                            <p class="thumbnail-title">Lorem Ipsum</p>
-                            <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
-                        </div>
-                        <div class="thumbnail">
-                            <img src="../Assets/img/thumbnail4.png" alt="" class="thumbnail-image">
-                            <p class="thumbnail-title">Lorem Ipsum</p>
-                            <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
-                        </div>
-                        <div class="thumbnail">
-                            <img src="../Assets/img/thumbnail1.png" alt="" class="thumbnail-image">
-                            <p class="thumbnail-title">Lorem Ipsum</p>
-                            <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
-                        </div>
-                        <div class="thumbnail">
-                            <img src="../Assets/img/thumbnail2.png" alt="" class="thumbnail-image">
-                            <p class="thumbnail-title">Lorem Ipsum</p>
-                            <a href="/smatugib/pages/artikel.php" class="see-more">Lihat Selengkapnya!</a>
-                        </div> -->
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
+
     <section id="footer">
         <div class="container footer">
             <div class="row">

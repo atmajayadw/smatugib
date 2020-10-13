@@ -211,15 +211,6 @@ body {
 
 /* ---------- RESPONSIVE BREAKPOINTS NAVBAR ---------- */
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {}
-
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     #navbar .nav .links {
@@ -232,10 +223,10 @@ body {
 
 }
 
-/* ---------------------- End ---------------------- */
+/* ---------------------- End Navbarr ---------------------- */
+
 
 /* ---------------------- Jumbotron ---------------------- */
-
 
 #jumbotron .jumbo {
     background-color: #FBF8F6;
@@ -250,13 +241,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-color: red; */
 }
 
 #jumbotron .jumbo-left img {
     width: 500px;
-    /* margin: auto;
-    display: block; */
 }
 
 #jumbotron .jumbo-right {
@@ -319,9 +307,6 @@ body {
 
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
-
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     #jumbotron .jumbo-right p:nth-child(1) {
@@ -329,10 +314,8 @@ body {
     }
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+/* ---------------------- End Jumbotron ---------------------- */
 
-/* ---------------------- End ---------------------- */
 
 /* ---------------------- Welcome -----------------------*/
 
@@ -398,9 +381,6 @@ body {
     }
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
-
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     #welcome {
@@ -416,6 +396,7 @@ body {
 }
 
 /* ---------------------- End WELCOME -----------------------*/
+
 
 /* ----------------------  Tentang -----------------------*/
 
@@ -626,7 +607,8 @@ body {
     }
 }
 
-/* ---------------------- End Abour -----------------------*/
+/* ---------------------- End About -----------------------*/
+
 
 /* ----------------------  News -----------------------*/
 
@@ -690,7 +672,6 @@ body {
 #news .news_ .news .date {
     font-size: 12px;
     color: #3E4C40;
-    /* margin-top: -5px; */
 }
 
 #news .news_ .news .see-more {
@@ -714,7 +695,7 @@ body {
 
 
 
-/* ---------- RESPONSIVE BREAKPOINTS ---------- */
+/* ---------- RESPONSIVE BREAKPOINTS NEWS---------- */
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -724,6 +705,7 @@ body {
 }
 
 /* ---------------------- End News -----------------------*/
+
 
 /* ----------------------  SLIDESHOW -----------------------*/
 
@@ -765,8 +747,6 @@ body {
     color: white;
     background-color: #3E4C40;
 }
-
-#slideshow .next {}
 
 #slideshow .thumbnails {
     display: flex;
@@ -840,13 +820,8 @@ body {
     }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
-
 /* ---------------------- End Slideshow  -----------------------*/
+
 
 /* ----------------------  Footer -----------------------*/
 
@@ -931,16 +906,7 @@ body {
     }
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
-
-/* ---------------------- End  -----------------------*/
+/* ---------------------- End Footer -----------------------*/
 
 
 /* ---------------------- Parallax  -----------------------*/
@@ -972,24 +938,3 @@ body {
 }
 
 /* ---------------------- End Parallax -----------------------*/
-
-
-
-
-/* ---------- RESPONSIVE BREAKPOINTS ---------- */
-
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
-
-/* ---------------------- End  -----------------------*/
-
-/* ----------------------   -----------------------*/

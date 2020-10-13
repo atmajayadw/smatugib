@@ -236,7 +236,6 @@
         </div>
     </section>
 
-    <!-- The Modal -->
     <div id="modal-facilities" class="modal-facilities">
         <span id="close-modal">x</span>
         <img class="modal-facilities-content" id="modal-img">
@@ -328,13 +327,6 @@
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
 
     <section id="footer">
         <div class="container footer">
