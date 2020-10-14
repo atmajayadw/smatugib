@@ -1,8 +1,6 @@
 <?php
-//koneksi database
 $conn = mysqli_connect("localhost", "root", "", "smatugib");
 
-// ambil data dari tabel mahasiswa / query data
 $result = mysqli_query($conn, "SELECT * FROM content");
 
 function query($query)
@@ -20,22 +18,17 @@ function add($data)
 {
     global $conn;
 
-    //ambil data dari tiap elemen form
     $tanggal = htmlspecialchars($data["tanggal"]);
     $judul = htmlspecialchars($data["judul"]);
     $editor = htmlspecialchars($data["editor"]);
     $isi = $data["isi"];
 
-    // upload gambar
     $foto = upload();
 
     if (!$foto) {
         return false;
     }
 
-
-
-    // query insert data
     $query = "INSERT INTO content VALUES (null, '$tanggal', '$judul', '$editor', '$foto', '$isi')";
 
     mysqli_query($conn, $query);
@@ -54,7 +47,6 @@ function update($data)
 {
     global $conn;
 
-    //ambil data dari tiap elemen form
     $id = $data["id"];
     $tanggal = htmlspecialchars($data["tanggal"]);
     $judul = htmlspecialchars($data["judul"]);
@@ -62,7 +54,6 @@ function update($data)
     $isi = $data["isi"];
     $fotolama = htmlspecialchars($data["fotolama"]);
 
-    //cek apakah user pilih gambar baru atau tidak
     if ($_FILES['foto']['error'] === 4) {
         $foto = $fotolama;
     } else {
@@ -71,8 +62,6 @@ function update($data)
         $foto = upload();
     }
 
-
-    // query insert data
     $query = "UPDATE content SET
     tanggal = '$tanggal',
     judul = '$judul',
@@ -105,7 +94,6 @@ function upload()
     $error = $_FILES['foto']['error'];
     $tmpname = $_FILES['foto']['tmp_name'];
 
-    //cek ada gambar atau tidak
     if ($error === 4) {
         echo "<script>
     alert('pilih foto dulu');
@@ -131,8 +119,6 @@ function upload()
         return false;
     }
 
-    //lolos cek kondisi, gambar siap upload
-    //generate nama gambar baru
     $namafilebaru = uniqid();
     $namafilebaru .= '.';
     $namafilebaru .= $ekstensigambar;

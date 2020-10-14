@@ -9,7 +9,6 @@ require 'functions.php';
 
 $id = $_GET["id"];
 
-//query berdasarkan id
 $content = query("SELECT * FROM content WHERE id = $id")[0];
 
 if (isset($_POST["submit"])) {

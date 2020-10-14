@@ -1,5 +1,4 @@
 <?php
-//koneksi database
 $conn = mysqli_connect("localhost", "root", "", "smatugib");
 
 function query($query)
@@ -24,7 +23,6 @@ function register($data)
     $password = mysqli_real_escape_string($conn, $data["password"]);
     $password2 = mysqli_real_escape_string($conn, $data["password2"]);
 
-    //cek username sudah ada atau belum
     $result = mysqli_query($conn, "SELECT username FROM data_admin WHERE username = '$username'");
 
     if (mysqli_fetch_assoc($result)) {
@@ -34,7 +32,6 @@ function register($data)
         return false;
     }
 
-    //cek konfirmasi password
     if ($password !== $password2) {
         echo "<script>
         alert('konfirmasi password tidak sesuai!');
@@ -42,10 +39,8 @@ function register($data)
         return false;
     }
 
-    //enkripsi password
     $password = password_hash($password, PASSWORD_DEFAULT);
 
-    // tambahkan user baru ke database
     mysqli_query($conn, "INSERT INTO data_admin VALUES(null, '$username', '$name', '$email', '$phone', '$password')");
 
     return mysqli_affected_rows($conn);
